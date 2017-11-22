@@ -10,7 +10,7 @@ Next step is install IDE from https://www.jetbrains.com/pycharm/, its my choice 
 Btw you can still learm without local installation of python, from www.learnpython.org
 
 
-what is pythonic, once you learned the basics of langaguge, refer to https://youtu.be/_O23jIXssh
+what is pythonic, once you learned the basics of langaguge, refer to https://www.youtube.com/playlist?list=PLTq2xnd7xp--L5E6B_BNiyzrtGs5FwCCa
 
 Other nice references
 http://book.pythontips.com/en/latest/index.html 
