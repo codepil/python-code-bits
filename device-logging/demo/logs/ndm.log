@@ -1,0 +1,306 @@
+20190226 06:09:49.005 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:09:49.006 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:09:49.535 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:09:49.694 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:09:49.973 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:09:50.040 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:09:50.041 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:09:54.319 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:09:54.737 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:09:54.737 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:09:55.284 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:09:55.447 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:09:55.714 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:09:55.779 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:09:55.779 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:09:56.135 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:10:00.063 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:10:00.064 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:10:00.628 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:10:00.790 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:10:01.044 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:10:01.109 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:10:01.110 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:10:01.936 I 10833 test_device_base.py:1403	agatehl1-011q powering on (charge) USB port 6 on hub cambrionix-axc7
+20190226 06:10:09.758 I 10833 test_device_base.py:1403	agatehl1-011q powering off USB port 6 on hub cambrionix-axc7
+20190226 06:10:13.672 I 10833 test_device_base.py:1403	agatehl1-011q powering on (sync) USB port 6 on hub cambrionix-axc7
+20190226 06:10:27.365 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:10:27.437 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:10:27.964 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:10:28.124 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:10:28.399 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:10:28.515 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:10:28.516 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:10:28.518 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:10:28.967 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:10:28.969 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:10:29.539 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:10:29.701 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:10:29.984 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:10:30.101 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:10:30.102 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:10:30.353 I 10833 test_device_base.py:728	agatehl1-011q starting upgrade
+20190226 06:10:33.740 I 10833      build_utils.py:277	agatehl1-011q target firmware_version is 1.0a41
+20190226 06:10:33.741 I 10833 test_device_base.py:737	agatehl1-011q Stage 1/4: Obtain build
+20190226 06:10:37.982 I 10833      build_utils.py:317	agatehl1-011q obtaining test-Agate-1.0a41-agate-development-0NUV-agate-app-en_US-EU.elf from https://images.testlabs.com/images/Palladium/Builds/1.0a41/Non-production/agate/development/
+20190226 06:10:41.296 I 10833      build_utils.py:588	agatehl1-011q acquiring build from gs://images-store/Palladium/Builds/1.0a41/Non-production/agate/development/test-Agate-1.0a41-agate-development-0NUV-agate-app-en_US-EU.elf
+20190226 06:17:19.320 I 10833      build_utils.py:602	agatehl1-011q successfully copied build to /tmp/agatehl1-011q/test-Agate-1.0a41-agate-development-0NUV-agate-app-en_US-EU.elf
+20190226 06:17:19.321 I 10833    agateHL1_core.py:224	agatehl1-011q Stage 2/4: Place in upgrade mode (MSC)
+20190226 06:17:22.562 I 10833    agateHL1_core.py:206	agatehl1-011q successfully reset into MSC mode in 2s.
+20190226 06:17:22.563 I 10833    agateHL1_core.py:233	agatehl1-011q Stage 3/4: Transfer file
+20190226 06:17:24.606 I 10833    agateHL1_core.py:236	agatehl1-011q receiving firmware /tmp/agatehl1-011q/test-Agate-1.0a41-agate-development-0NUV-agate-app-en_US-EU.elf
+20190226 06:17:24.606 I 10833      usb_storage.py:456	Copying file /tmp/agatehl1-011q/test-Agate-1.0a41-agate-development-0NUV-agate-app-en_US-EU.elf to device
+20190226 06:18:23.950 I 10833    agateHL1_core.py:242	agatehl1-011q firmware transfer complete.
+20190226 06:18:23.951 I 10833      rtos_device.py:737	agatehl1-011q Stage 4/4: Initiate the upgrade and verify its successful
+20190226 06:18:27.447 I 10833      rtos_device.py:743	agatehl1-011q device self reboot successful. Applying software update.
+20190226 06:18:58.900 I 10833      rtos_device.py:754	agatehl1-011q software update applied successfully. Booting new software.
+20190226 06:19:06.798 I 10833      rtos_device.py:767	agatehl1-011q software boot successful.
+20190226 06:19:06.974 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:19:09.041 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:19:09.042 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:19:09.341 I 10833 test_device_base.py:760	agatehl1-011q successfully upgraded to 1.0a41 in 518.98743391 seconds
+20190226 06:19:13.379 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:19:15.270 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:19:15.271 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:19:15.811 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:19:15.974 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:19:16.252 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:19:16.319 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:19:16.320 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:19:16.622 I 10833      rtos_device.py:800	agatehl1-011q performing send and verify of command factory_reset
+20190226 06:19:20.596 I 10833      rtos_device.py:823	agatehl1-011q command factory_reset successful. It took 3.97440910339s
+20190226 06:19:24.922 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:19:25.354 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:19:25.355 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:19:25.883 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:19:26.058 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:19:26.339 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:19:26.407 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:19:26.407 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:19:26.608 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:19:31.508 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:19:31.508 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:19:32.080 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:19:32.242 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:19:32.537 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:19:32.654 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:19:32.655 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:19:36.925 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:19:37.366 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:19:37.367 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:19:37.932 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:19:38.094 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:19:38.387 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:19:38.454 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:19:38.454 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:19:42.579 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:19:43.018 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:19:43.020 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:19:43.548 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:19:43.707 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:19:43.994 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:19:44.061 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:19:44.062 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:19:48.283 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:19:48.728 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:19:48.729 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:19:49.241 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:19:49.399 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:19:49.676 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:19:49.793 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:19:49.794 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:19:54.217 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:19:54.652 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:19:54.653 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:19:55.202 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:19:55.363 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:19:55.650 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:19:55.767 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:19:55.768 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:19:59.895 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:20:00.321 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:20:00.322 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:20:00.857 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:20:01.038 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:20:01.319 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:20:01.386 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:20:01.387 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:20:05.600 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:20:06.008 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:20:06.009 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:20:06.538 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:20:06.695 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:20:06.970 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:20:07.088 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:20:07.089 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:20:11.259 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:20:11.698 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:20:11.699 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:20:12.267 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:20:12.429 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:20:12.701 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:20:12.818 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:20:12.818 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:20:13.068 I 10833      rtos_device.py:800	agatehl1-011q performing send and verify of command reboot
+20190226 06:20:16.684 I 10833      rtos_device.py:823	agatehl1-011q command reboot successful. It took 3.61567091942s
+20190226 06:20:21.815 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:20:22.236 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:20:22.237 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:20:22.772 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:20:22.935 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:20:23.217 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:20:23.334 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:20:23.335 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:20:29.436 I 10833      rtos_device.py:651	agatehl1-011q successfully reset in 5.85009884834s.
+20190226 06:20:33.495 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:20:35.450 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:20:35.451 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:20:35.984 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:20:36.147 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:20:36.436 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:20:36.553 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:20:36.553 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:20:50.731 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:20:51.132 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:20:51.134 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:20:51.668 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:20:51.827 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:20:52.112 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:20:52.179 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:20:52.180 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:20:56.546 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:20:56.966 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:20:56.968 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:20:57.519 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:20:57.679 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:20:57.964 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:20:58.031 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:20:58.032 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:21:02.251 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:21:02.667 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:21:02.668 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:21:03.204 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:21:03.380 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:21:03.665 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:21:03.732 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:21:03.733 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:21:09.854 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:21:10.285 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:21:10.286 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:21:10.814 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:21:10.991 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:21:11.278 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:21:11.395 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:21:11.396 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:21:11.649 E 10833           errors.py:30	Device agatehl1-011q event retrieval failed. Event label bogus_event_label doesn't exist.
+20190226 06:21:11.650 E 10833           errors.py:30	Device agatehl1-011q event history retrieval failed. Event label bogus_event_label doesn't exist.
+20190226 06:21:11.651 E 10833           errors.py:30	Device agatehl1-011q event history retrieval failed. Event label bogus_event_label doesn't exist.
+20190226 06:21:15.573 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:21:16.022 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:21:16.023 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:21:16.574 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:21:16.734 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:21:17.016 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:21:17.083 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:21:17.084 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:21:21.331 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:21:21.756 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:21:21.758 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:21:22.324 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:21:22.486 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:21:22.766 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:21:22.834 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:21:22.835 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:21:27.067 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:21:27.500 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:21:27.501 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:21:28.068 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:21:28.227 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:21:28.485 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:21:28.551 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:21:28.552 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:21:32.788 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:21:33.223 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:21:33.225 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:21:33.755 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:21:33.934 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:21:34.226 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:21:34.293 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:21:34.294 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:21:34.644 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:21:34.730 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:21:35.262 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:21:35.439 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:21:35.720 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:21:35.787 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:21:35.788 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:21:44.201 E 10833           errors.py:30	Device agatehl1-011q shell failed. Unable to retrieve response using '\npairing\x00'. Response: 
+20190226 06:21:44.202 E 10833           errors.py:30	Device agatehl1-011q's firmware does not support 'pairing' command
+20190226 06:21:44.205 I 10833          manager.py:1030	testDeviceError for pairing_state, exception: Traceback (most recent call last):
+  File "/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/manager.py", line 1026, in _get_dynamic_property
+    value = getattr(ref, prop)
+  File "/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/base_classes/rtos_device.py", line 485, in pairing_state
+    self.name))
+testDeviceError: Device agatehl1-011q's firmware does not support 'pairing' command
+
+20190226 06:21:44.233 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:21:48.034 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:21:48.034 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:21:48.563 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:21:48.721 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:21:49.009 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:21:49.077 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:21:49.078 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:21:49.278 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:21:49.359 I 10833      rtos_device.py:108	Detecting /dev/serial/by-id/usb-FTDI_AgateHL1_5afb6939-if02-port0 device on serial port agatehl1
+20190226 06:21:49.616 I 10833      rtos_device.py:330		agatehl1_detect checking device readiness
+20190226 06:21:49.733 I 10833      rtos_device.py:177		agatehl1_detect FW has minishell_agate
+20190226 06:21:49.734 I 10833      rtos_device.py:334		agatehl1_detect check_device_ready responded to gfwv command. Device is ready!
+20190226 06:21:51.232 I 10833      switchboard.py:1426		agatehl1_detect closing switchboard processes
+20190226 06:21:55.033 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:21:55.034 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:21:55.601 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:21:55.762 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:21:56.049 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:21:56.165 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:21:56.166 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:22:00.391 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:22:00.822 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:22:00.823 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:22:01.356 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:22:01.515 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:22:01.803 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:22:01.869 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:22:01.869 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:22:06.043 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:22:06.473 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:22:06.475 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:22:07.008 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:22:07.168 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:22:07.455 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:22:07.573 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:22:07.575 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:22:11.764 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:22:12.195 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:22:12.196 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:22:12.731 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:22:12.908 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:22:13.187 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:22:13.253 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:22:13.254 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:22:17.376 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:22:17.797 W 10833          manager.py:262	DEPRECATION WARNING: Support for log_file_name argument is ending soon. Please start using log_name_prefix argument instead.
+20190226 06:22:17.797 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:22:18.360 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:22:18.522 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:22:18.800 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:22:18.868 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:22:18.869 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:22:23.039 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes
+20190226 06:22:23.130 I 10833          manager.py:296	Creating agatehl1-011q
+20190226 06:22:23.657 I 10833 test_device_base.py:168	agatehl1-011q adding 'usb_hub' for hub cambrionix-axc7 on port 6
+20190226 06:22:23.815 I 10833 test_device_base.py:171	agatehl1-011q usb_port_power is set at sync
+20190226 06:22:24.088 I 10833      rtos_device.py:330	agatehl1-011q checking device readiness
+20190226 06:22:24.156 I 10833      rtos_device.py:177	agatehl1-011q FW has minishell_agate
+20190226 06:22:24.157 I 10833      rtos_device.py:334	agatehl1-011q check_device_ready responded to gfwv command. Device is ready!
+20190226 06:22:24.159 I 10833      switchboard.py:1426	agatehl1-011q closing switchboard processes

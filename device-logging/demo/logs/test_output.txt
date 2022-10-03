@@ -1,0 +1,532 @@
+Initiated from job https://jenkins.camera.testlabs.com/job/AgateHL1-Full-Reg/182/
+host_name::bedrock-prod-nep-regsrvr-004.mtv.corp.google.com
+host_ip::100.107.115.77
++ export DB_TR_UUID=de0b7250-39cf-11e9-a677-aa000a000a62
++ DB_TR_UUID=de0b7250-39cf-11e9-a677-aa000a000a62
++ TMPDIR=/tmp/sw-7368
++ mkdir /tmp/sw-7368
++ echo 'PID of this run.sh script: 162066'
+PID of this run.sh script: 162066
++ [[ -z /home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/iov1BEVa ]]
++ echo 'Initiated from job https://jenkins.camera.testlabs.com/job/AgateHL1-Full-Reg/182/'
+swarming_task/run.sh: line 22: /links.txt: Permission denied
++ echo 'https://cast-swarming.appspot.com/task?id='
+swarming_task/run.sh: line 23: /links.txt: Permission denied
++ echo 'https://cast-swarming.appspot.com/bot?id='
+swarming_task/run.sh: line 24: /links.txt: Permission denied
++ [[ -d swarming_task ]]
++ cd swarming_task
++ [[ -z Testbed-One-Agatehl1-01 ]]
+++ realpath /home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/iov1BEVa
++ export MOBLY_LOGPATH=/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/iov1BEVa
++ MOBLY_LOGPATH=/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/iov1BEVa
+++ realpath /home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/iov1BEVa
++ export TEST_UNDECLARED_OUTPUTS_DIR=/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/iov1BEVa
++ TEST_UNDECLARED_OUTPUTS_DIR=/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/iov1BEVa
++ printenv
+LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:
+SSH_CONNECTION=100.99.165.254 55478 100.107.115.77 22
+LESSCLOSE=/usr/bin/lesspipe %s %s
+DB_TR_UUID=de0b7250-39cf-11e9-a677-aa000a000a62
+LANG=en_US.UTF-8
+HISTTIMEFORMAT=%m/%d/%y %T 
+OLDPWD=/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir
+MOBLY_LOGPATH=/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/iov1BEVa
+IP_ADDR=100.107.115.77 172.16.243.1 2401:fa00:480:ea:a2d3:c1ff:fe0c:7de 
+MOBILE_HARNESS_RELEASE_RUNNER=mobileharness
+XDG_SESSION_ID=191
+USER=mobileharness
+SWARMING_BOT_ID=bedrock-prod-nep-regsrvr-004-Testbed-One-Agatehl1-01
+NO_GCE_CHECK=False
+PWD=/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task
+HOME=/home/mobileharness
+SWARMING_TASK_ID=4342f37715368211
+SSH_CLIENT=100.99.165.254 55478 22
+TEST_UNDECLARED_OUTPUTS_DIR=/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/iov1BEVa
+TESTBED_NAME=Testbed-One-Agatehl1-01
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+BOT_DIMENSIONS={"ip_addr": ["100.107.115.77 172.16.243.1 2401:fa00:480:ea:a2d3:"], "hostname": ["bedrock-prod-nep-regsrvr-004"] , "label": [ "nep_regression_server" ] , "testbed_type": ["One-Agatehl1"] }
+TMPDIR=/tmp/sw-7368
+SWARMING_HEADLESS=1
+SSH_TTY=/dev/pts/0
+SWARMING_SERVER=https://cast-swarming.appspot.com
+MAIL=/var/mail/mobileharness
+SHELL=/bin/bash
+TERM=xterm-256color
+TESTBED_HEALTH_CHECK=true
+SHLVL=3
+TESTBED_HEALTH_CHECK_DEVICE_IDS=["agatehl1-011q"]
+CHECK_TESTBED_TYPE_IN_BOT_ID=true
+LUCI_CONTEXT=/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/it0NoLXG/luci_ctx.oITOoL.json
+LOGNAME=mobileharness
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+XDG_RUNTIME_DIR=/run/user/1000
+PATH=/home/mobileharness/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+TESTBED_HEALTH_CHECK_VERBOSE=true
+EXTRA_BOT_DIMS="ip_addr": ["100.107.115.77 172.16.243.1 2401:fa00:480:ea:a2d3:"], "hostname": ["bedrock-prod-nep-regsrvr-004"] , "label": [ "nep_regression_server" ] 
+CHECK_TESTBED_NAME_IN_BOT_ID=true
+LESSOPEN=| /usr/bin/lesspipe %s
+_=/usr/bin/printenv
++ pwd
+/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task
++ ls
+files.isolate
+run.sh
+test_dir
++ cd test_dir
++ chmod 777 requirements.txt
++ echo 'Installing requirements: ndm, camera_cloud, potion, mobly'
+Installing requirements: ndm, camera_cloud, potion, mobly
++ '[' test_devices.tar.gz = test_devices.tar.gz ']'
++ echo test_devices.tar.gz
++ mkdir ve
++ virtualenv ve
+New python executable in /home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/ve/bin/python
+Installing setuptools, pip, wheel...done.
++ ve/bin/pip install -r requirements.txt
+DEPRECATION: Python 2.7 will reach the end of its life on January 1st, 2020. Please upgrade your Python as Python 2.7 won't be maintained after that date. A future version of pip will drop support for Python 2.7.
+Processing ./test_devices.tar.gz
+Collecting coverage (from -r requirements.txt (line 2))
+  Retrying (Retry(total=4, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.org', port=443): Read timed out. (read timeout=15)",)': /simple/coverage/
+  Retrying (Retry(total=3, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='pypi.org', port=443): Read timed out. (read timeout=15)",)': /simple/coverage/
+  Using cached https://files.pythonhosted.org/packages/af/cf/e240715a50d64b0538a08a2be1ae4060fb25791e911cbe8fd2367b5deeaa/coverage-4.5.2-cp27-cp27mu-manylinux1_x86_64.whl
+Collecting mobly (from -r requirements.txt (line 3))
+Collecting pyyaml (from -r requirements.txt (line 4))
+Collecting pymysql (from -r requirements.txt (line 5))
+  Using cached https://files.pythonhosted.org/packages/ed/39/15045ae46f2a123019aa968dfcba0396c161c20f855f11dea6796bcaae95/PyMySQL-0.9.3-py2.py3-none-any.whl
+Collecting gsutil (from test-device==0.8.10->-r requirements.txt (line 6))
+Collecting jenkinsapi>=0.3.4 (from test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/49/0f/26b519cf5bcd874600e40f75cc561f0c4101a678b9e5cfeed5c12af5f71b/jenkinsapi-0.3.8-py2.py3-none-any.whl
+Collecting pexpect>=4.2.1 (from test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/89/e6/b5a1de8b0cc4e07ca1b305a4fcc3f9806025c1b651ea302646341222f88b/pexpect-4.6.0-py2.py3-none-any.whl
+Collecting psutil>=5.0.1 (from test-device==0.8.10->-r requirements.txt (line 6))
+Collecting pylibftdi<0.16.0,>=0.15.0 (from test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/ea/7a/083e8e3bebc7ca43f8c16831a3d7a6a7410dbfbc9dd751ada83ab90b0bdb/pylibftdi-0.15.0-py2.py3-none-any.whl
+Collecting pyserial>=3.3 (from test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/0d/e4/2a744dd9e3be04a0c0907414e2a01a7c88bb3915cbe3c8cc06e209f59c30/pyserial-3.4-py2.py3-none-any.whl
+Collecting pytz>=2014.4 (from test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/61/28/1d3920e4d1d50b19bc5d24398a7cd85cc7b9a75a490570d5a30c57622d34/pytz-2018.9-py2.py3-none-any.whl
+Collecting pyudev>=0.21.0 (from test-device==0.8.10->-r requirements.txt (line 6))
+Collecting requests>=2.4.0 (from test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/7d/e3/20f3d364d6c8e5d2353c72a67778eb189176f08e873c9900e10c0287b84b/requests-2.21.0-py2.py3-none-any.whl
+Collecting usbinfo>=1.0.1 (from test-device==0.8.10->-r requirements.txt (line 6))
+Collecting xmodem>=0.4.5 (from test-device==0.8.10->-r requirements.txt (line 6))
+Collecting futures (from mobly->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/2d/99/b2c4e9d5a30f6471e410a146232b4118e697fa3ffc06d6a65efde84debd0/futures-3.2.0-py2-none-any.whl
+Collecting portpicker (from mobly->-r requirements.txt (line 3))
+Collecting enum34 (from mobly->-r requirements.txt (line 3))
+  Using cached https://files.pythonhosted.org/packages/c5/db/e56e6b4bbac7c4a06de1c50de6fe1ef3810018ae11732a50f15f62c7d050/enum34-1.1.6-py2-none-any.whl
+Collecting timeout-decorator (from mobly->-r requirements.txt (line 3))
+Collecting future (from mobly->-r requirements.txt (line 3))
+Collecting httplib2>=0.11.3 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+Collecting boto==2.49.0 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/23/10/c0b78c27298029e4454a472a1919bde20cb182dab1662cec7f2ca1dcc523/boto-2.49.0-py2.py3-none-any.whl
+Collecting monotonic>=1.4 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/ac/aa/063eca6a416f397bd99552c534c6d11d57f58f2e94c14780f3bbf818c4cf/monotonic-1.5-py2.py3-none-any.whl
+Collecting google-apitools>=0.5.25 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/74/12/065e04ed7bc9c9c45ff08429e0aa74176c4ea63608abb85a4786659889b1/google_apitools-0.5.26-py2-none-any.whl
+Collecting crcmod>=1.7 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+Collecting retry-decorator>=1.0.0 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+Collecting pyOpenSSL>=0.13 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/01/c8/ceb170d81bd3941cbeb9940fc6cc2ef2ca4288d0ca8929ea4db5905d904d/pyOpenSSL-19.0.0-py2.py3-none-any.whl
+Collecting python-gflags>=3.1.2 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+Collecting six>=1.12.0 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/73/fb/00a976f728d0d1fecfe898238ce23f502a721c0ac0ecfedb80e0d88c64e9/six-1.12.0-py2.py3-none-any.whl
+Collecting gcs-oauth2-boto-plugin>=2.2 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+Collecting mock==2.0.0 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/e6/35/f187bdf23be87092bd0f1200d43d23076cee4d0dec109f195173fd3ebc79/mock-2.0.0-py2.py3-none-any.whl
+Collecting google-reauth>=0.1.0 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/c3/2c/3eeab6508a7243ad83747dd1e273df21a798c5998813c83f482df90f5790/google_reauth-0.1.0-py2.py3-none-any.whl
+Collecting argcomplete>=1.9.4 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/31/88/ba8d8684a8a27749250c66ff7c2b408fdbc29b50da61200338ff9b2607bf/argcomplete-1.9.4-py2.py3-none-any.whl
+Collecting fasteners>=0.14.1 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/14/3a/096c7ad18e102d4f219f5dd15951f9728ca5092a3385d2e8f79a7c1e1017/fasteners-0.14.1-py2.py3-none-any.whl
+Collecting oauth2client==4.1.3 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/95/a9/4f25a14d23f0786b64875b91784607c2277eff25d48f915e39ff0cff505a/oauth2client-4.1.3-py2.py3-none-any.whl
+Collecting SocksiPy-branch==1.01 (from gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+Collecting ptyprocess>=0.5 (from pexpect>=4.2.1->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/d1/29/605c2cc68a9992d18dada28206eeada56ea4bd07a239669da41674648b6f/ptyprocess-0.6.0-py2.py3-none-any.whl
+Collecting urllib3<1.25,>=1.21.1 (from requests>=2.4.0->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/62/00/ee1d7de624db8ba7090d1226aebefab96a2c71cd5cfa7629d6ad3f61b79e/urllib3-1.24.1-py2.py3-none-any.whl
+Collecting certifi>=2017.4.17 (from requests>=2.4.0->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/9f/e0/accfc1b56b57e9750eba272e24c4dddeac86852c2bebd1236674d7887e8a/certifi-2018.11.29-py2.py3-none-any.whl
+Collecting chardet<3.1.0,>=3.0.2 (from requests>=2.4.0->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/bc/a9/01ffebfb562e4274b6487b4bb1ddec7ca55ec7510b22e4c51f14098443b8/chardet-3.0.4-py2.py3-none-any.whl
+Collecting idna<2.9,>=2.5 (from requests>=2.4.0->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/14/2c/cd551d81dbe15200be1cf41cd03869a46fe7226e7450af7a6545bfc474c9/idna-2.8-py2.py3-none-any.whl
+Collecting cryptography>=2.3 (from pyOpenSSL>=0.13->gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/17/fd/4c2c8953a9dfe38fbe0c3adafb6355540bd98cef70cc82734acb0a4c0e2f/cryptography-2.5-cp27-cp27mu-manylinux1_x86_64.whl
+Collecting funcsigs>=1; python_version < "3.3" (from mock==2.0.0->gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/69/cb/f5be453359271714c01b9bd06126eaf2e368f1fddfff30818754b5ac2328/funcsigs-1.0.2-py2.py3-none-any.whl
+Collecting pbr>=0.11 (from mock==2.0.0->gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/8c/7f/fed53b379500fd889707d1f6e61c2a35e12f2de87396894aff89b017d1d6/pbr-5.1.2-py2.py3-none-any.whl
+Collecting pyu2f (from google-reauth>=0.1.0->gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+Collecting rsa>=3.1.4 (from oauth2client==4.1.3->gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/02/e5/38518af393f7c214357079ce67a317307936896e961e35450b70fad2a9cf/rsa-4.0-py2.py3-none-any.whl
+Collecting pyasn1>=0.1.7 (from oauth2client==4.1.3->gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/7b/7c/c9386b82a25115cccf1903441bba3cbadcfae7b678a20167347fa8ded34c/pyasn1-0.4.5-py2.py3-none-any.whl
+Collecting pyasn1-modules>=0.0.5 (from oauth2client==4.1.3->gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/da/98/8ddd9fa4d84065926832bcf2255a2b69f1d03330aa4d1c49cc7317ac888e/pyasn1_modules-0.2.4-py2.py3-none-any.whl
+Collecting asn1crypto>=0.21.0 (from cryptography>=2.3->pyOpenSSL>=0.13->gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/ea/cd/35485615f45f30a510576f1a56d1e0a7ad7bd8ab5ed7cdc600ef7cd06222/asn1crypto-0.24.0-py2.py3-none-any.whl
+Collecting ipaddress; python_version < "3" (from cryptography>=2.3->pyOpenSSL>=0.13->gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/fc/d0/7fc3a811e011d4b388be48a0e381db8d990042df54aa4ef4599a31d39853/ipaddress-1.0.22-py2.py3-none-any.whl
+Collecting cffi!=1.11.3,>=1.8 (from cryptography>=2.3->pyOpenSSL>=0.13->gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+  Using cached https://files.pythonhosted.org/packages/9f/1f/f825741ebadb8497d1c3ec954062f1e09e97881618eecc9ef7c5c7ff8bbb/cffi-1.12.1-cp27-cp27mu-manylinux1_x86_64.whl
+Collecting pycparser (from cffi!=1.11.3,>=1.8->cryptography>=2.3->pyOpenSSL>=0.13->gsutil->test-device==0.8.10->-r requirements.txt (line 6))
+Building wheels for collected packages: test-device
+  Building wheel for test-device (setup.py): started
+  Building wheel for test-device (setup.py): finished with status 'done'
+  Stored in directory: /tmp/sw-7368/pip-ephem-wheel-cache-rJ6PQ_/wheels/73/01/be/9409852d11b61dae98b24da4484cb39ad7ec6f9fb647abdf4b
+Successfully built test-device
+Installing collected packages: coverage, futures, portpicker, enum34, timeout-decorator, pyserial, psutil, future, pyyaml, mobly, pymysql, httplib2, boto, monotonic, pyasn1, rsa, pyasn1-modules, six, oauth2client, fasteners, google-apitools, crcmod, retry-decorator, asn1crypto, ipaddress, pycparser, cffi, cryptography, pyOpenSSL, python-gflags, pyu2f, google-reauth, SocksiPy-branch, gcs-oauth2-boto-plugin, funcsigs, pbr, mock, argcomplete, gsutil, urllib3, certifi, chardet, idna, requests, pytz, jenkinsapi, ptyprocess, pexpect, pylibftdi, pyudev, usbinfo, xmodem, test-device
+Successfully installed SocksiPy-branch-1.1 argcomplete-1.9.4 asn1crypto-0.24.0 boto-2.49.0 certifi-2018.11.29 cffi-1.12.1 chardet-3.0.4 coverage-4.5.2 crcmod-1.7 cryptography-2.5 enum34-1.1.6 fasteners-0.14.1 funcsigs-1.0.2 future-0.17.1 futures-3.2.0 gcs-oauth2-boto-plugin-2.2 google-apitools-0.5.26 google-reauth-0.1.0 gsutil-4.36 httplib2-0.12.1 idna-2.8 ipaddress-1.0.22 jenkinsapi-0.3.8 mobly-1.8.1 mock-2.0.0 monotonic-1.5 test-device-0.8.10 oauth2client-4.1.3 pbr-5.1.2 pexpect-4.6.0 portpicker-1.3.0 psutil-5.5.1 ptyprocess-0.6.0 pyOpenSSL-19.0.0 pyasn1-0.4.5 pyasn1-modules-0.2.4 pycparser-2.19 pylibftdi-0.15.0 pymysql-0.9.3 pyserial-3.4 python-gflags-3.1.2 pytz-2018.9 pyu2f-0.1.4 pyudev-0.21.0 pyyaml-3.13 requests-2.21.0 retry-decorator-1.1.0 rsa-4.0 six-1.12.0 timeout-decorator-0.4.1 urllib3-1.24.1 usbinfo-1.1.1 xmodem-0.4.5
++ '[' '!' -z all ']'
++ test_case_list=all
++ multiple_arg=($test_case_list)
++ ve/bin/python regression_test_suite.py -t One-Agatehl1 --test_case all
+****Single Device All Tests but DNR Suite****
+Running 30 tests. Skipping 0 tests.
+[Testbed-One-Agatehl1-01] 02-26 06:09:48.646 INFO Test output folder: "/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/iov1BEVa/Testbed-One-Agatehl1-01/02-26-2019_06-09-48-646"
+[Testbed-One-Agatehl1-01] 02-26 06:09:48.647 INFO NDM Version: 0.8.10
+[Testbed-One-Agatehl1-01] 02-26 06:09:48.648 INFO Test_config_file: agatehl1_test_config.json
+[Testbed-One-Agatehl1-01] 02-26 06:09:48.649 INFO Filtered out test: 
+[Testbed-One-Agatehl1-01] 02-26 06:09:48.650 INFO ==========> Agatehl1FunctionalTests <==========
+[Testbed-One-Agatehl1-01] 02-26 06:09:48.652 INFO [Test] test_1000_force_slow_enabled
+[Testbed-One-Agatehl1-01] 02-26 06:09:48.882 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d02d3e0f049077a0d3c10c07de, 'test_1000_force_slow_enabled', '1', 1551190188, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:09:49.004 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:09:49.535 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:09:50.041 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:09:50.340 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:09:50.818 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d02d3e0f049077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:09:51.172 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190190, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d02d3e0f049077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:09:54.380 INFO [Test] test_1000_force_slow_enabled PASS
+[Testbed-One-Agatehl1-01] 02-26 06:09:54.383 INFO [Test] test_3110_verify_usb_state
+[Testbed-One-Agatehl1-01] 02-26 06:09:54.614 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d030a866589077a0d3c10c07de, 'test_3110_verify_usb_state', '1', 1551190194, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:09:54.736 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:09:55.283 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:09:55.780 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:09:55.974 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:09:56.575 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190196, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d030a866589077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:09:59.712 INFO [Test] test_3110_verify_usb_state PASS
+[Testbed-One-Agatehl1-01] 02-26 06:09:59.715 INFO [Test] test_3112_verify_set_usb_port_power
+[Testbed-One-Agatehl1-01] 02-26 06:09:59.943 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d033d619ce9077a0d3c10c07de, 'test_3112_verify_set_usb_port_power', '1', 1551190199, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:10:00.063 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:10:00.627 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:10:01.110 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:10:01.304 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:10:01.762 INFO Going from sync to charge
+[Testbed-One-Agatehl1-01] 02-26 06:10:09.596 INFO Going from charge to off
+[Testbed-One-Agatehl1-01] 02-26 06:10:13.514 INFO Going from off to sync
+[Testbed-One-Agatehl1-01] 02-26 06:10:23.291 INFO set the usb_port power back to sync
+[Testbed-One-Agatehl1-01] 02-26 06:10:23.875 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d033d619ce9077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:10:24.223 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190223, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d033d619ce9077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:10:27.433 INFO [Test] test_3112_verify_set_usb_port_power PASS
+[Testbed-One-Agatehl1-01] 02-26 06:10:27.437 INFO Recovering devices ...
+[Testbed-One-Agatehl1-01] 02-26 06:10:27.963 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:10:28.517 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:10:28.518 INFO device to be recovered agatehl1-011q
+[Testbed-One-Agatehl1-01] 02-26 06:10:28.599 INFO Summary for test class Agatehl1FunctionalTests: Error 0, Executed 3, Failed 0, Passed 3, Requested 3, Skipped 0
+[Testbed-One-Agatehl1-01] 02-26 06:10:28.600 INFO NDM Version: 0.8.10
+[Testbed-One-Agatehl1-01] 02-26 06:10:28.603 INFO Test_config_file: agatehl1_test_config.json
+[Testbed-One-Agatehl1-01] 02-26 06:10:28.605 INFO Filtered out test: test_1013_get_pairing_state, test_3104_get_wifi_channel, test_3105_get_wifi_ssid, test_3106_get_wifi_mac_address
+[Testbed-One-Agatehl1-01] 02-26 06:10:28.607 INFO ==========> CommonTestSuite <==========
+[Testbed-One-Agatehl1-01] 02-26 06:10:28.615 INFO [Test] test_0000_upgrade_to_latest_verified_forced
+[Testbed-One-Agatehl1-01] 02-26 06:10:28.844 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d0450fd36a9077a0d3c10c07de, 'test_0000_upgrade_to_latest_verified_forced', '1', 1551190228, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:10:28.966 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:10:29.539 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:10:30.103 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:10:30.352 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:19:09.360 INFO Execution time for test_0000_upgrade_to_latest_verified_forced: 519.007044077 seconds
+[Testbed-One-Agatehl1-01] 02-26 06:19:09.888 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d0450fd36a9077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:19:10.236 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190750, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d0450fd36a9077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:19:14.912 INFO [Test] test_0000_upgrade_to_latest_verified_forced PASS
+[Testbed-One-Agatehl1-01] 02-26 06:19:14.919 INFO [Test] test_0001_factory_reset
+[Testbed-One-Agatehl1-01] 02-26 06:19:15.148 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d17ec374949077a0d3c10c07de, 'test_0001_factory_reset', '1', 1551190754, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:19:15.269 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:19:15.811 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:19:16.321 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:19:16.620 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:19:20.606 INFO Execution time for test_0001_factory_reset: 3.98460412025 seconds
+[Testbed-One-Agatehl1-01] 02-26 06:19:21.430 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d17ec374949077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:19:21.778 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190761, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d17ec374949077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:19:24.998 INFO [Test] test_0001_factory_reset PASS
+[Testbed-One-Agatehl1-01] 02-26 06:19:25.003 INFO [Test] test_1000_close_device
+[Testbed-One-Agatehl1-01] 02-26 06:19:25.232 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d184c634589077a0d3c10c07de, 'test_1000_close_device', '1', 1551190765, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:19:25.353 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:19:25.883 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:19:26.409 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:19:26.606 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:19:26.607 INFO Testing close device stops logging
+[Testbed-One-Agatehl1-01] 02-26 06:19:28.009 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190767, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d184c634589077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:19:31.153 INFO [Test] test_1000_close_device PASS
+[Testbed-One-Agatehl1-01] 02-26 06:19:31.157 INFO [Test] test_1001_logging
+[Testbed-One-Agatehl1-01] 02-26 06:19:31.386 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1887125d69077a0d3c10c07de, 'test_1001_logging', '1', 1551190771, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:19:31.507 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:19:32.080 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:19:32.656 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:19:32.903 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:19:32.904 INFO Execution time for test_1001_logging: 0.000204086303711 seconds
+[Testbed-One-Agatehl1-01] 02-26 06:19:33.434 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1887125d69077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:19:33.783 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190773, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1887125d69077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:19:37.008 INFO [Test] test_1001_logging PASS
+[Testbed-One-Agatehl1-01] 02-26 06:19:37.012 INFO [Test] test_1002_get_serial_number
+[Testbed-One-Agatehl1-01] 02-26 06:19:37.243 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d18bee8dd49077a0d3c10c07de, 'test_1002_get_serial_number', '1', 1551190777, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:19:37.365 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:19:37.931 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:19:38.455 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:19:38.653 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:19:39.081 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d18bee8dd49077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:19:39.437 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190779, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d18bee8dd49077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:19:42.663 INFO [Test] test_1002_get_serial_number PASS
+[Testbed-One-Agatehl1-01] 02-26 06:19:42.668 INFO [Test] test_1003_get_ftdi_serial_number
+[Testbed-One-Agatehl1-01] 02-26 06:19:42.897 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d18f4d91329077a0d3c10c07de, 'test_1003_get_ftdi_serial_number', '1', 1551190782, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:19:43.017 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:19:43.547 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:19:44.063 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:19:44.361 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:19:44.789 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d18f4d91329077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:19:45.138 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190784, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d18f4d91329077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:19:48.370 INFO [Test] test_1003_get_ftdi_serial_number PASS
+[Testbed-One-Agatehl1-01] 02-26 06:19:48.375 INFO [Test] test_1004_get_firmware_version
+[Testbed-One-Agatehl1-01] 02-26 06:19:48.605 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d192b486469077a0d3c10c07de, 'test_1004_get_firmware_version', '1', 1551190788, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:19:48.726 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:19:49.240 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:19:49.795 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:19:49.995 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:19:50.720 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d192b486469077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:19:51.070 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190790, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d192b486469077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:19:54.296 INFO [Test] test_1004_get_firmware_version PASS
+[Testbed-One-Agatehl1-01] 02-26 06:19:54.300 INFO [Test] test_1005_get_build_date
+[Testbed-One-Agatehl1-01] 02-26 06:19:54.530 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1963c89269077a0d3c10c07de, 'test_1005_get_build_date', '1', 1551190794, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:19:54.651 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:19:55.201 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:19:55.769 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:19:55.969 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:19:56.399 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1963c89269077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:19:56.748 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190796, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1963c89269077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:19:59.961 INFO [Test] test_1005_get_build_date PASS
+[Testbed-One-Agatehl1-01] 02-26 06:19:59.966 INFO [Test] test_1006_get_pairing_code
+[Testbed-One-Agatehl1-01] 02-26 06:20:00.197 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1999d0b5e9077a0d3c10c07de, 'test_1006_get_pairing_code', '1', 1551190799, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:20:00.320 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:20:00.857 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:20:01.388 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:20:01.634 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:20:02.109 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1999d0b5e9077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:20:02.461 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190802, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1999d0b5e9077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:20:05.647 INFO [Test] test_1006_get_pairing_code PASS
+[Testbed-One-Agatehl1-01] 02-26 06:20:05.650 INFO [Test] test_1007_get_qr_code
+[Testbed-One-Agatehl1-01] 02-26 06:20:05.879 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d19d005ddc9077a0d3c10c07de, 'test_1007_get_qr_code', '1', 1551190805, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:20:06.007 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:20:06.538 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:20:07.090 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:20:07.336 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:20:07.764 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d19d005ddc9077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:20:08.114 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190807, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d19d005ddc9077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:20:11.345 INFO [Test] test_1007_get_qr_code PASS
+[Testbed-One-Agatehl1-01] 02-26 06:20:11.348 INFO [Test] test_1008_reboot_and_expect_known_logline
+[Testbed-One-Agatehl1-01] 02-26 06:20:11.576 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1a065dd089077a0d3c10c07de, 'test_1008_reboot_and_expect_known_logline', '1', 1551190811, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:20:11.697 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:20:12.267 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:20:12.819 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:20:13.067 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:20:17.028 INFO Expecting logline u'Interface Up'
+[Testbed-One-Agatehl1-01] 02-26 06:20:17.844 INFO Execution time for test_1008_reboot_and_expect_known_logline: 4.77591776848 seconds
+[Testbed-One-Agatehl1-01] 02-26 06:20:18.321 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1a065dd089077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:20:18.669 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190818, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1a065dd089077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:20:21.883 INFO [Test] test_1008_reboot_and_expect_known_logline PASS
+[Testbed-One-Agatehl1-01] 02-26 06:20:21.887 INFO [Test] test_1009_reset
+[Testbed-One-Agatehl1-01] 02-26 06:20:22.115 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1a6adf4709077a0d3c10c07de, 'test_1009_reset', '1', 1551190821, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:20:22.235 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:20:22.771 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:20:23.337 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:20:23.585 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:20:30.001 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1a6adf4709077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:20:30.350 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190830, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1a6adf4709077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:20:35.092 INFO [Test] test_1009_reset PASS
+[Testbed-One-Agatehl1-01] 02-26 06:20:35.096 INFO [Test] test_1011_send_and_expect
+[Testbed-One-Agatehl1-01] 02-26 06:20:35.326 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1ae8d844e9077a0d3c10c07de, 'test_1011_send_and_expect', '1', 1551190835, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:20:35.448 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:20:35.984 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:20:36.554 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:20:36.803 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:20:47.234 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1ae8d844e9077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:20:47.583 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190847, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1ae8d844e9077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:20:50.778 INFO [Test] test_1011_send_and_expect PASS
+[Testbed-One-Agatehl1-01] 02-26 06:20:50.781 INFO [Test] test_1012_shell
+[Testbed-One-Agatehl1-01] 02-26 06:20:51.010 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1b7e6c94c9077a0d3c10c07de, 'test_1012_shell', '1', 1551190850, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:20:51.131 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:20:51.667 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:20:52.181 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:20:52.429 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:20:53.052 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1b7e6c94c9077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:20:53.401 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190853, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1b7e6c94c9077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:20:56.610 INFO [Test] test_1012_shell PASS
+[Testbed-One-Agatehl1-01] 02-26 06:20:56.614 INFO [Test] test_1016_do_and_expect_some_func_is_called
+[Testbed-One-Agatehl1-01] 02-26 06:20:56.844 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1bb60dd069077a0d3c10c07de, 'test_1016_do_and_expect_some_func_is_called', '1', 1551190856, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:20:56.965 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:20:57.518 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:20:58.032 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:20:58.230 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:20:58.758 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1bb60dd069077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:20:59.108 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190858, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1bb60dd069077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:21:02.313 INFO [Test] test_1016_do_and_expect_some_func_is_called PASS
+[Testbed-One-Agatehl1-01] 02-26 06:21:02.315 INFO [Test] test_1115_test_expect_with_bogus_logline
+[Testbed-One-Agatehl1-01] 02-26 06:21:02.544 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1bec6df909077a0d3c10c07de, 'test_1115_test_expect_with_bogus_logline', '1', 1551190862, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:21:02.666 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:21:03.203 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:21:03.734 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:21:03.933 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:21:03.934 INFO testing expect with bogus log line
+[Testbed-One-Agatehl1-01] 02-26 06:21:05.936 INFO Execution time for test_1115_test_expect_with_bogus_logline: 2.0021109581 seconds
+[Testbed-One-Agatehl1-01] 02-26 06:21:06.362 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1bec6df909077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:21:06.711 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190866, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1bec6df909077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:21:09.931 INFO [Test] test_1115_test_expect_with_bogus_logline PASS
+[Testbed-One-Agatehl1-01] 02-26 06:21:09.935 INFO [Test] test_1116_get_event_related_methods_raise_error_for_bogus_event_label
+[Testbed-One-Agatehl1-01] 02-26 06:21:10.164 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1c351770a9077a0d3c10c07de, 'test_1116_get_event_related_methods_raise_error_for_bogus_event_label', '1', 1551190869, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:21:10.284 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:21:10.814 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:21:11.397 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:21:11.646 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:21:12.081 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1c351770a9077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:21:12.430 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190872, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1c351770a9077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:21:15.661 INFO [Test] test_1116_get_event_related_methods_raise_error_for_bogus_event_label PASS
+[Testbed-One-Agatehl1-01] 02-26 06:21:15.667 INFO [Test] test_1117_get_event_related_methods_return_appropriate_results
+[Testbed-One-Agatehl1-01] 02-26 06:21:15.897 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1c6bc20a29077a0d3c10c07de, 'test_1117_get_event_related_methods_return_appropriate_results', '1', 1551190875, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:21:16.020 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:21:16.573 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:21:17.085 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:21:17.333 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:21:17.841 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1c6bc20a29077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:21:18.189 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190877, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1c6bc20a29077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:21:21.399 INFO [Test] test_1117_get_event_related_methods_return_appropriate_results PASS
+[Testbed-One-Agatehl1-01] 02-26 06:21:21.404 INFO [Test] test_1500_start_new_log
+[Testbed-One-Agatehl1-01] 02-26 06:21:21.634 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1ca277ab69077a0d3c10c07de, 'test_1500_start_new_log', '1', 1551190881, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:21:21.755 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:21:22.324 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:21:22.836 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:21:23.034 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:21:23.586 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1ca277ab69077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:21:23.933 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190883, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1ca277ab69077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:21:27.144 INFO [Test] test_1500_start_new_log PASS
+[Testbed-One-Agatehl1-01] 02-26 06:21:27.147 INFO [Test] test_1510_rotate_log
+[Testbed-One-Agatehl1-01] 02-26 06:21:27.378 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1cd93df829077a0d3c10c07de, 'test_1510_rotate_log', '1', 1551190887, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:21:27.499 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:21:28.068 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:21:28.552 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:21:28.799 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:21:29.299 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1cd93df829077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:21:29.646 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190889, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1cd93df829077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:21:32.866 INFO [Test] test_1510_rotate_log PASS
+[Testbed-One-Agatehl1-01] 02-26 06:21:32.870 INFO [Test] test_2002_get_prop_can_execute
+[Testbed-One-Agatehl1-01] 02-26 06:21:33.100 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1d0fd2a7a9077a0d3c10c07de, 'test_2002_get_prop_can_execute', '1', 1551190892, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:21:33.222 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:21:33.754 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:21:34.295 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:21:34.644 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:21:35.261 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:21:35.790 INFO Patching device.close() method.
+Device is connected. Retrieving all dynamic properties.........
+[Testbed-One-Agatehl1-01] 02-26 06:21:44.533 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190904, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1d0fd2a7a9077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:21:47.677 INFO [Test] test_2002_get_prop_can_execute PASS
+[Testbed-One-Agatehl1-01] 02-26 06:21:47.683 INFO [Test] test_2003_get_info_can_execute
+[Testbed-One-Agatehl1-01] 02-26 06:21:47.913 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1d9d170fc9077a0d3c10c07de, 'test_2003_get_info_can_execute', '1', 1551190907, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:21:48.033 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:21:48.562 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:21:49.079 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:21:49.277 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:21:51.527 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190911, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1d9d170fc9077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:21:54.677 INFO [Test] test_2003_get_info_can_execute PASS
+[Testbed-One-Agatehl1-01] 02-26 06:21:54.683 INFO [Test] test_2005_is_device_works
+[Testbed-One-Agatehl1-01] 02-26 06:21:54.912 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1ddfd7d9c9077a0d3c10c07de, 'test_2005_is_device_works', '1', 1551190914, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:21:55.033 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:21:55.600 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:21:56.167 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:21:56.465 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:21:56.897 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1ddfd7d9c9077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:21:57.247 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190917, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1ddfd7d9c9077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:22:00.465 INFO [Test] test_2005_is_device_works PASS
+[Testbed-One-Agatehl1-01] 02-26 06:22:00.470 INFO [Test] test_3107_get_thread_channel
+[Testbed-One-Agatehl1-01] 02-26 06:22:00.700 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1e17087089077a0d3c10c07de, 'test_3107_get_thread_channel', '1', 1551190920, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:22:00.821 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:22:01.355 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:22:01.870 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:22:02.065 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:22:02.549 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1e17087089077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:22:02.899 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190922, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1e17087089077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:22:06.115 INFO [Test] test_3107_get_thread_channel PASS
+[Testbed-One-Agatehl1-01] 02-26 06:22:06.119 INFO [Test] test_3108_get_thread_network
+[Testbed-One-Agatehl1-01] 02-26 06:22:06.348 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1e4ce7ef09077a0d3c10c07de, 'test_3108_get_thread_network', '1', 1551190926, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:22:06.472 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:22:07.007 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:22:07.576 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:22:07.826 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:22:08.269 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1e4ce7ef09077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:22:08.618 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190928, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1e4ce7ef09077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:22:11.840 INFO [Test] test_3108_get_thread_network PASS
+[Testbed-One-Agatehl1-01] 02-26 06:22:11.843 INFO [Test] test_3109_get_wpan_random_mac_address
+[Testbed-One-Agatehl1-01] 02-26 06:22:12.072 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1e837f8e69077a0d3c10c07de, 'test_3109_get_wpan_random_mac_address', '1', 1551190931, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:22:12.193 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:22:12.730 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:22:13.255 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:22:13.453 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:22:13.891 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1e837f8e69077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:22:14.241 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190934, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1e837f8e69077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:22:17.442 INFO [Test] test_3109_get_wpan_random_mac_address PASS
+[Testbed-One-Agatehl1-01] 02-26 06:22:17.445 INFO [Test] test_4400_wpan_mac_address
+[Testbed-One-Agatehl1-01] 02-26 06:22:17.675 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO bedrock_testcase_tracker (`tr_uuid`, `tc_uuid_binary`, `tc_name`, `tc_id`, `tc_start_time`, `status_raw`) VALUES ('de0b7250-39cf-11e9-a677-aa000a000a62', 0x11e939d1eb8eb1389077a0d3c10c07de, 'test_4400_wpan_mac_address', '1', 1551190937, 'started')
+[Testbed-One-Agatehl1-01] 02-26 06:22:17.796 INFO Custom event filters directory [u'/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir/functional_tests/filters/optional_description.json'] 
+[Testbed-One-Agatehl1-01] 02-26 06:22:18.359 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:22:18.870 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:22:19.119 INFO DUT: agatehl1-011q Firmware version: 1.0a41
+[Testbed-One-Agatehl1-01] 02-26 06:22:19.547 INFO bedrock_db_perform_sql: SQL statement: INSERT INTO `bedrock_device_tracker` ( `tc_uuid_binary`, `device_id`, `device_sn`, `device_type`, `sw_ver_requested`, `sw_ver_actual`, `device_status`) VALUES (0x11e939d1eb8eb1389077a0d3c10c07de, 'agatehl1-011q', '23AA01AC0318011Q', 'agatehl1', 'tbd', '1.0a41', 'tbd')
+[Testbed-One-Agatehl1-01] 02-26 06:22:19.897 INFO bedrock_db_perform_sql: SQL statement: UPDATE `bedrock_testcase_tracker` SET `tc_end_time` =  1551190939, `status_raw` = 'pass', `custom01_json` = "{}", `test_runner_version` = '01.04' WHERE `tc_uuid_binary` = 0x11e939d1eb8eb1389077a0d3c10c07de 
+[Testbed-One-Agatehl1-01] 02-26 06:22:23.125 INFO [Test] test_4400_wpan_mac_address PASS
+[Testbed-One-Agatehl1-01] 02-26 06:22:23.130 INFO Recovering devices ...
+[Testbed-One-Agatehl1-01] 02-26 06:22:23.656 INFO Warning: Create method being called twice on the same device: cambrionix-axc7
+[Testbed-One-Agatehl1-01] 02-26 06:22:24.158 INFO Patching device.close() method.
+[Testbed-One-Agatehl1-01] 02-26 06:22:24.159 INFO device to be recovered agatehl1-011q
+[Testbed-One-Agatehl1-01] 02-26 06:22:24.236 INFO Summary for test class CommonTestSuite: Error 0, Executed 27, Failed 0, Passed 27, Requested 27, Skipped 0
+[Testbed-One-Agatehl1-01] 02-26 06:22:24.239 INFO Summary for test run Testbed-One-Agatehl1-01@02-26-2019_06-09-48-646: Error 0, Executed 30, Failed 0, Passed 30, Requested 30, Skipped 0
+Coverage.py warning: Module test_device was previously imported, but not measured (module-not-measured)
++ pwd
+/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/ir/swarming_task/test_dir
++ cd /home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/iov1BEVa
++ pwd
+/home/mobileharness/bots/Testbed-One-Agatehl1-01-bot/w/iov1BEVa
++ echo 'quit and log a failure if the test_summary.yaml file is missing.'
+quit and log a failure if the test_summary.yaml file is missing.
+++ find . -name test_summary.yaml
++ [[ ! -z ./Testbed-One-Agatehl1-01/02-26-2019_06-09-48-646/test_summary.yaml ]]
++ echo 'found a results file, continuing'
+found a results file, continuing
++ shopt -s globstar
++ for i in **/test_summary.yaml
++ echo Testbed-One-Agatehl1-01/02-26-2019_06-09-48-646/test_summary.yaml
+Testbed-One-Agatehl1-01/02-26-2019_06-09-48-646/test_summary.yaml
++ grep FAIL Testbed-One-Agatehl1-01/02-26-2019_06-09-48-646/test_summary.yaml
++ for i in **/test_summary.yaml
++ echo Testbed-One-Agatehl1-01/latest/test_summary.yaml
+Testbed-One-Agatehl1-01/latest/test_summary.yaml
++ grep FAIL Testbed-One-Agatehl1-01/latest/test_summary.yaml
++ for i in **/test_summary.yaml
++ echo Testbed-One-Agatehl1-01/02-26-2019_06-09-48-646/test_summary.yaml
+Testbed-One-Agatehl1-01/02-26-2019_06-09-48-646/test_summary.yaml
++ grep ERROR Testbed-One-Agatehl1-01/02-26-2019_06-09-48-646/test_summary.yaml
++ for i in **/test_summary.yaml
++ echo Testbed-One-Agatehl1-01/latest/test_summary.yaml
+Testbed-One-Agatehl1-01/latest/test_summary.yaml
++ grep ERROR Testbed-One-Agatehl1-01/latest/test_summary.yaml
++ for i in **/test_summary.yaml
++ echo Testbed-One-Agatehl1-01/02-26-2019_06-09-48-646/test_summary.yaml
+Testbed-One-Agatehl1-01/02-26-2019_06-09-48-646/test_summary.yaml
++ grep SKIP Testbed-One-Agatehl1-01/02-26-2019_06-09-48-646/test_summary.yaml
++ for i in **/test_summary.yaml
++ echo Testbed-One-Agatehl1-01/latest/test_summary.yaml
+Testbed-One-Agatehl1-01/latest/test_summary.yaml
++ grep SKIP Testbed-One-Agatehl1-01/latest/test_summary.yaml
++ rm -rf /tmp/sw-7368
++ ls -lR MOBLY_LOGPATH
+ls: cannot access 'MOBLY_LOGPATH': No such file or directory
++ find . -name latest -exec rm '{}' ';'
+

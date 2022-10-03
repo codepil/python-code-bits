@@ -1,0 +1,23 @@
+<2019-02-26 06:21:28.486973> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 2s
+<2019-02-26 06:21:28.487272> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:21:28.541219> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:21:28.551229> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:21:28.551363> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0637249946594s
+<2019-02-26 06:21:28.553294> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:21:28.553583> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:21:28.624933> NDM-0: ACK
+<2019-02-26 06:21:28.667576> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:21:28.667736> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.113762140274s
+<2019-02-26 06:21:28.667912> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:21:28.668070> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:21:28.730149> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:21:28.732548> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:21:28.732877> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.0641489028931s
+<2019-02-26 06:21:28.733271> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:21:28.733628> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:21:28.795279> NDM-0: ACK
+<2019-02-26 06:21:28.798626> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:21:28.798897> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0642218589783s
+<2019-02-26 06:21:28.821029> NDM-M: Changing max_log_size from 100000000 to 520
+<2019-02-26 06:21:28.821604> NDM-M: Note: Special message to trigger at least one log rotation
+<2019-02-26 06:21:28.822494> NDM-M: Rotating from log file agatehl1-011q-test_1510_rotate_log.log to agatehl1-011q-test_1510_rotate_log.00001.log

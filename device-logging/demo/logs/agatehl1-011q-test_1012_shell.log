@@ -1,0 +1,61 @@
+<2019-02-26 06:20:52.114272> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 2s
+<2019-02-26 06:20:52.114668> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:20:52.173494> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:20:52.178836> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:52.179016> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0638709068298s
+<2019-02-26 06:20:52.182265> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:52.182752> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:20:52.238815> NDM-0: ACK
+<2019-02-26 06:20:52.247193> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:52.247363> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0639591217041s
+<2019-02-26 06:20:52.247695> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:20:52.248003> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:20:52.314793> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:20:52.362627> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:20:52.362900> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.114149093628s
+<2019-02-26 06:20:52.363330> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:52.363703> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:20:52.422778> NDM-0: ACK
+<2019-02-26 06:20:52.428431> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:52.428669> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0639688968658s
+<2019-02-26 06:20:52.429963> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:52.430664> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:20:52.487963> NDM-0: ACK
+<2019-02-26 06:20:52.495327> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:52.495509> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0641260147095s
+<2019-02-26 06:20:52.495813> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:20:52.496086> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:20:52.553042> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:20:52.560561> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:20:52.560738> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.0638449192047s
+<2019-02-26 06:20:52.561104> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:52.561479> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:20:52.617876> NDM-0: ACK
+<2019-02-26 06:20:52.626008> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:52.626200> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0639989376068s
+<2019-02-26 06:20:52.626915> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:52.627592> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:20:52.682677> NDM-0: ACK
+<2019-02-26 06:20:52.692065> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:52.692244> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.063894033432s
+<2019-02-26 06:20:52.692606> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:20:52.692916> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:20:52.747881> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:20:52.757565> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:20:52.757819> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.0640668869019s
+<2019-02-26 06:20:52.758346> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:52.758737> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:20:52.812545> NDM-0: ACK
+<2019-02-26 06:20:52.823851> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:52.824002> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0639989376068s
+<2019-02-26 06:20:54.810962> NDM-0: [0:00:26.497] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:20:55.456650> NDM-0: [0:00:27.113] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:20:55.456976> NDM-0: [0:00:27.119] [THCI] Interface Down
+<2019-02-26 06:20:55.457289> NDM-0: [0:00:27.122] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:20:55.457687> NDM-0: [0:00:27.134] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:20:55.458122> NDM-0: [0:00:27.140] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:20:55.458388> NDM-0: [0:00:27.148] [THCI] Interface Up
+<2019-02-26 06:20:55.458716> NDM-0: [0:00:27.151] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:20:55.469663> NDM-0: [0:00:27.159] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:20:55.469947> NDM-0: [0:00:27.166] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:20:56.094353> NDM-0: [0:00:27.771] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding

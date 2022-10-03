@@ -1,0 +1,46 @@
+<2019-02-26 06:19:38.389075> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 2s
+<2019-02-26 06:19:38.389510> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:19:38.453140> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:19:38.453835> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:19:38.454010> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0638649463654s
+<2019-02-26 06:19:38.456363> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:19:38.456778> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:19:38.518208> NDM-0: ACK
+<2019-02-26 06:19:38.521365> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:19:38.521612> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.064131975174s
+<2019-02-26 06:19:38.522046> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:19:38.522421> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:19:38.582622> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:19:38.587505> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:19:38.587824> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.0641279220581s
+<2019-02-26 06:19:38.588265> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:19:38.588647> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:19:38.648013> NDM-0: ACK
+<2019-02-26 06:19:38.653215> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:19:38.653384> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0638949871063s
+<2019-02-26 06:19:38.654877> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:19:38.655475> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:19:38.713229> NDM-0: ACK
+<2019-02-26 06:19:38.720486> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:19:38.720704> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0640590190887s
+<2019-02-26 06:19:38.721057> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:19:38.721316> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:19:38.777952> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:19:38.785920> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:19:38.786179> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.0640881061554s
+<2019-02-26 06:19:38.786493> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:19:38.786883> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:19:38.843148> NDM-0: ACK
+<2019-02-26 06:19:38.851767> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:19:38.851980> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.06414103508s
+<2019-02-26 06:19:40.998888> NDM-0: [0:00:21.474] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:19:41.646364> NDM-0: [0:00:22.091] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:19:41.646577> NDM-0: [0:00:22.097] [THCI] Interface Down
+<2019-02-26 06:19:41.646755> NDM-0: [0:00:22.100] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:19:41.646893> NDM-0: [0:00:22.112] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:19:41.647039> NDM-0: [0:00:22.118] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:19:41.647168> NDM-0: [0:00:22.126] [THCI] Interface Up
+<2019-02-26 06:19:41.647362> NDM-0: [0:00:22.129] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:19:41.668501> NDM-0: [0:00:22.137] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:19:41.668718> NDM-0: [0:00:22.144] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:19:42.283705> NDM-0: [0:00:22.749] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding

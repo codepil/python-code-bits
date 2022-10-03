@@ -1,0 +1,755 @@
+<2019-02-26 06:10:29.985869> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 2s
+<2019-02-26 06:10:29.986183> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:10:30.053707> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:10:30.100476> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:10:30.100836> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.114218950272s
+<2019-02-26 06:10:30.104895> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:10:30.105344> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:10:30.171343> NDM-0: ACK
+<2019-02-26 06:10:30.219920> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:10:30.220121> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.113980054855s
+<2019-02-26 06:10:30.220436> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:10:30.220746> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:10:30.277779> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:10:30.285592> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:10:30.285861> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.0640799999237s
+<2019-02-26 06:10:30.286375> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:10:30.286954> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:10:30.342907> NDM-0: ACK
+<2019-02-26 06:10:30.352063> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:10:30.352235> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.064022064209s
+<2019-02-26 06:10:31.763267> NDM-0: [0:00:14.861] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:10:32.279818> NDM-0: [0:00:15.369] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:10:33.602179> NDM-0: [0:00:16.670] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:10:34.240730> NDM-0: [0:00:17.290] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:10:34.241033> NDM-0: [0:00:17.296] [THCI] Interface Down
+<2019-02-26 06:10:34.241507> NDM-0: [0:00:17.299] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:10:34.242020> NDM-0: [0:00:17.311] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:10:34.242416> NDM-0: [0:00:17.317] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:10:34.242786> NDM-0: [0:00:17.325] [THCI] Interface Up
+<2019-02-26 06:10:34.243106> NDM-0: [0:00:17.328] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:10:34.264712> NDM-0: [0:00:17.336] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:10:34.264911> NDM-0: [0:00:17.343] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:10:34.878416> NDM-0: [0:00:17.947] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:10:38.565452> NDM-0: [0:00:21.611] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:10:38.916362> NDM-0: [0:00:21.955] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:10:39.223800> NDM-0: [0:00:22.229] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:10:39.223981> NDM-0: [0:00:22.235] [THCI] Interface Down
+<2019-02-26 06:10:39.224163> NDM-0: [0:00:22.238] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:10:39.224323> NDM-0: [0:00:22.250] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:10:39.224480> NDM-0: [0:00:22.256] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:10:39.224600> NDM-0: [0:00:22.265] [THCI] Interface Up
+<2019-02-26 06:10:39.224751> NDM-0: [0:00:22.268] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:10:39.235399> NDM-0: [0:00:22.275] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:10:39.235687> NDM-0: [0:00:22.282] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:10:39.523023> NDM-0: [0:00:22.562] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:10:39.857319> NDM-0: [0:00:22.889] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:10:41.022758> NDM-0: [0:00:24.043] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:10:43.548632> NDM-0: [0:00:26.554] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:10:44.205886> NDM-0: [0:00:27.174] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:10:44.206225> NDM-0: [0:00:27.180] [THCI] Interface Down
+<2019-02-26 06:10:44.206546> NDM-0: [0:00:27.183] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:10:44.206922> NDM-0: [0:00:27.195] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:10:44.207262> NDM-0: [0:00:27.201] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:10:44.207505> NDM-0: [0:00:27.210] [THCI] Interface Up
+<2019-02-26 06:10:44.207798> NDM-0: [0:00:27.213] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:10:44.218884> NDM-0: [0:00:27.220] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:10:44.219164> NDM-0: [0:00:27.227] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:10:44.834007> NDM-0: [0:00:27.834] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:10:48.538440> NDM-0: [0:00:31.509] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:10:49.184712> NDM-0: [0:00:32.127] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:10:49.184992> NDM-0: [0:00:32.133] [THCI] Interface Down
+<2019-02-26 06:10:49.185298> NDM-0: [0:00:32.136] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:10:49.185719> NDM-0: [0:00:32.148] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:10:49.186033> NDM-0: [0:00:32.154] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:10:49.186270> NDM-0: [0:00:32.163] [THCI] Interface Up
+<2019-02-26 06:10:49.186546> NDM-0: [0:00:32.166] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:10:49.208243> NDM-0: [0:00:32.173] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:10:49.208512> NDM-0: [0:00:32.180] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:10:49.826153> NDM-0: [0:00:32.786] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:10:51.368641> NDM-0: [0:00:34.322] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:10:51.878044> NDM-0: [0:00:34.828] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:10:53.520659> NDM-0: [0:00:36.455] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:10:54.176766> NDM-0: [0:00:37.073] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:10:54.177081> NDM-0: [0:00:37.079] [THCI] Interface Down
+<2019-02-26 06:10:54.177477> NDM-0: [0:00:37.082] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:10:54.177864> NDM-0: [0:00:37.094] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:10:54.178264> NDM-0: [0:00:37.100] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:10:54.178501> NDM-0: [0:00:37.109] [THCI] Interface Up
+<2019-02-26 06:10:54.178809> NDM-0: [0:00:37.112] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:10:54.200145> NDM-0: [0:00:37.119] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:10:54.200384> NDM-0: [0:00:37.126] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:10:54.810664> NDM-0: [0:00:37.731] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:10:58.500614> NDM-0: [0:00:41.398] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:10:59.169783> NDM-0: [0:00:42.027] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:10:59.170035> NDM-0: [0:00:42.033] [THCI] Interface Down
+<2019-02-26 06:10:59.170300> NDM-0: [0:00:42.036] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:10:59.170639> NDM-0: [0:00:42.048] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:10:59.171030> NDM-0: [0:00:42.054] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:10:59.171227> NDM-0: [0:00:42.063] [THCI] Interface Up
+<2019-02-26 06:10:59.171495> NDM-0: [0:00:42.066] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:10:59.182368> NDM-0: [0:00:42.073] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:10:59.182555> NDM-0: [0:00:42.080] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:10:59.800530> NDM-0: [0:00:42.686] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:03.494090> NDM-0: [0:00:46.351] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:04.141672> NDM-0: [0:00:46.968] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:11:04.141986> NDM-0: [0:00:46.974] [THCI] Interface Down
+<2019-02-26 06:11:04.142350> NDM-0: [0:00:46.977] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:04.142638> NDM-0: [0:00:46.989] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:11:04.142963> NDM-0: [0:00:46.995] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:11:04.143212> NDM-0: [0:00:47.004] [THCI] Interface Up
+<2019-02-26 06:11:04.143590> NDM-0: [0:00:47.007] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:11:04.165034> NDM-0: [0:00:47.014] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:04.165336> NDM-0: [0:00:47.021] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:11:04.346103> NDM-0: [0:00:47.189] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:11:04.781837> NDM-0: [0:00:47.627] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:08.476510> NDM-0: [0:00:51.296] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:09.123996> NDM-0: [0:00:51.914] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:11:09.124242> NDM-0: [0:00:51.920] [THCI] Interface Down
+<2019-02-26 06:11:09.124585> NDM-0: [0:00:51.923] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:09.124881> NDM-0: [0:00:51.935] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:11:09.125136> NDM-0: [0:00:51.941] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:11:09.125310> NDM-0: [0:00:51.950] [THCI] Interface Up
+<2019-02-26 06:11:09.125544> NDM-0: [0:00:51.953] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:11:09.147197> NDM-0: [0:00:51.960] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:09.147567> NDM-0: [0:00:51.967] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:11:09.760109> NDM-0: [0:00:52.574] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:13.458565> NDM-0: [0:00:56.245] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:14.116637> NDM-0: [0:00:56.869] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:11:14.116901> NDM-0: [0:00:56.875] [THCI] Interface Down
+<2019-02-26 06:11:14.117260> NDM-0: [0:00:56.878] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:14.117597> NDM-0: [0:00:56.890] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:11:14.117892> NDM-0: [0:00:56.896] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:11:14.118089> NDM-0: [0:00:56.905] [THCI] Interface Up
+<2019-02-26 06:11:14.118347> NDM-0: [0:00:56.908] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:11:14.139997> NDM-0: [0:00:56.915] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:14.140300> NDM-0: [0:00:56.922] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:11:14.488241> NDM-0: [0:00:57.261] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:11:14.761788> NDM-0: [0:00:57.542] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:14.995594> NDM-0: [0:00:57.768] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:11:16.699207> NDM-0: [0:00:59.465] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:11:17.208581> NDM-0: [0:00:59.971] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:11:18.449135> NDM-0: [0:01:01.200] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:19.108208> NDM-0: [0:01:01.820] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:11:19.108508> NDM-0: [0:01:01.826] [THCI] Interface Down
+<2019-02-26 06:11:19.108819> NDM-0: [0:01:01.829] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:19.109212> NDM-0: [0:01:01.841] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:11:19.109760> NDM-0: [0:01:01.847] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:11:19.110088> NDM-0: [0:01:01.856] [THCI] Interface Up
+<2019-02-26 06:11:19.110464> NDM-0: [0:01:01.859] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:11:19.110901> NDM-0: [0:01:01.866] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:19.121901> NDM-0: [0:01:01.873] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:11:19.736044> NDM-0: [0:01:02.479] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:23.431371> NDM-0: [0:01:06.141] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:23.664712> NDM-0: [0:01:06.388] [APPL] Temp 2493
+<2019-02-26 06:11:23.686309> NDM-0: [0:01:06.403] [APPL] NTCs 2625 2583 2577
+<2019-02-26 06:11:24.079089> NDM-0: [0:01:06.758] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:11:24.079392> NDM-0: [0:01:06.764] [THCI] Interface Down
+<2019-02-26 06:11:24.079681> NDM-0: [0:01:06.767] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:24.079953> NDM-0: [0:01:06.779] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:11:24.080245> NDM-0: [0:01:06.785] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:11:24.080575> NDM-0: [0:01:06.794] [THCI] Interface Up
+<2019-02-26 06:11:24.080949> NDM-0: [0:01:06.797] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:11:24.091818> NDM-0: [0:01:06.804] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:24.092079> NDM-0: [0:01:06.811] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:11:24.717171> NDM-0: [0:01:07.418] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:26.986156> NDM-0: [0:01:09.663] [OTHR] [INFO]-MAC-----: Received IPv6 UDP msg, len:83, chksum:fc0a, from:fe30d8ed7933e8c9, sec:yes, prio:low, rss:-83.0
+<2019-02-26 06:11:26.986467> NDM-0: [0:01:09.675] [OTHR] [INFO]-MAC-----: 	src:[fe80:0:0:0:fc30:d8ed:7933:e8c9]:19788
+<2019-02-26 06:11:26.986689> NDM-0: [0:01:09.682] [OTHR] [INFO]-MAC-----: 	dst:[ff02:0:0:0:0:0:0:1]:19788
+<2019-02-26 06:11:27.369368> NDM-0: [0:01:10.054] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:11:28.410338> NDM-0: [0:01:11.086] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:29.059825> NDM-0: [0:01:11.703] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:11:29.060226> NDM-0: [0:01:11.709] [THCI] Interface Down
+<2019-02-26 06:11:29.060684> NDM-0: [0:01:11.712] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:29.061085> NDM-0: [0:01:11.724] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:11:29.061469> NDM-0: [0:01:11.730] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:11:29.061682> NDM-0: [0:01:11.739] [THCI] Interface Up
+<2019-02-26 06:11:29.061946> NDM-0: [0:01:11.742] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:11:29.072972> NDM-0: [0:01:11.749] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:29.073300> NDM-0: [0:01:11.756] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:11:29.669803> NDM-0: [0:01:12.336] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:11:29.691382> NDM-0: [0:01:12.366] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:30.264890> NDM-0: [0:01:12.913] [OTHR] [INFO]-MAC-----: Received IPv6 UDP msg, len:83, chksum:30b8, from:4e4a60bdb6c14524, sec:yes, prio:low, rss:-86.0
+<2019-02-26 06:11:30.265313> NDM-0: [0:01:12.924] [OTHR] [INFO]-MAC-----: 	src:[fe80:0:0:0:4c4a:60bd:b6c1:4524]:19788
+<2019-02-26 06:11:30.265790> NDM-0: [0:01:12.932] [OTHR] [INFO]-MAC-----: 	dst:[ff02:0:0:0:0:0:0:1]:19788
+<2019-02-26 06:11:30.351934> NDM-0: [0:01:12.999] [OTHR] [INFO]-MAC-----: Received IPv6 UDP msg, len:83, chksum:67ea, from:4e4a60bdb6c14524, sec:yes, prio:low, rss:-81.0
+<2019-02-26 06:11:30.352548> NDM-0: [0:01:13.011] [OTHR] [INFO]-MAC-----: 	src:[fe80:0:0:0:4c4a:60bd:b6c1:4524]:19788
+<2019-02-26 06:11:30.353018> NDM-0: [0:01:13.018] [OTHR] [INFO]-MAC-----: 	dst:[ff02:0:0:0:0:0:0:1]:19788
+<2019-02-26 06:11:33.389960> NDM-0: [0:01:16.033] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:34.050068> NDM-0: [0:01:16.652] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:11:34.050267> NDM-0: [0:01:16.658] [THCI] Interface Down
+<2019-02-26 06:11:34.050484> NDM-0: [0:01:16.661] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:34.050690> NDM-0: [0:01:16.673] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:11:34.050887> NDM-0: [0:01:16.679] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:11:34.051022> NDM-0: [0:01:16.688] [THCI] Interface Up
+<2019-02-26 06:11:34.051205> NDM-0: [0:01:16.691] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:11:34.061847> NDM-0: [0:01:16.698] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:34.062051> NDM-0: [0:01:16.705] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:11:34.688791> NDM-0: [0:01:17.317] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:38.389115> NDM-0: [0:01:20.991] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:39.027373> NDM-0: [0:01:21.608] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:11:39.027765> NDM-0: [0:01:21.614] [THCI] Interface Down
+<2019-02-26 06:11:39.028234> NDM-0: [0:01:21.617] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:39.028558> NDM-0: [0:01:21.629] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:11:39.028869> NDM-0: [0:01:21.635] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:11:39.029111> NDM-0: [0:01:21.644] [THCI] Interface Up
+<2019-02-26 06:11:39.029680> NDM-0: [0:01:21.647] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:11:39.051310> NDM-0: [0:01:21.654] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:39.051655> NDM-0: [0:01:21.661] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:11:39.665501> NDM-0: [0:01:22.268] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:39.824184> NDM-0: [0:01:22.425] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:11:42.035799> NDM-0: [0:01:24.618] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:11:43.374439> NDM-0: [0:01:25.943] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:44.018719> NDM-0: [0:01:26.562] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:11:44.019054> NDM-0: [0:01:26.568] [THCI] Interface Down
+<2019-02-26 06:11:44.019406> NDM-0: [0:01:26.571] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:44.019718> NDM-0: [0:01:26.583] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:11:44.020153> NDM-0: [0:01:26.589] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:11:44.020545> NDM-0: [0:01:26.598] [THCI] Interface Up
+<2019-02-26 06:11:44.021013> NDM-0: [0:01:26.601] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:11:44.042673> NDM-0: [0:01:26.608] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:44.042837> NDM-0: [0:01:26.615] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:11:44.655224> NDM-0: [0:01:27.222] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:48.353057> NDM-0: [0:01:30.889] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:49.007649> NDM-0: [0:01:31.508] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:11:49.007998> NDM-0: [0:01:31.514] [THCI] Interface Down
+<2019-02-26 06:11:49.008390> NDM-0: [0:01:31.517] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:49.008775> NDM-0: [0:01:31.529] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:11:49.009106> NDM-0: [0:01:31.535] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:11:49.009327> NDM-0: [0:01:31.544] [THCI] Interface Up
+<2019-02-26 06:11:49.009635> NDM-0: [0:01:31.547] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:11:49.020748> NDM-0: [0:01:31.554] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:49.021083> NDM-0: [0:01:31.561] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:11:49.633225> NDM-0: [0:01:32.167] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:52.211901> NDM-0: [0:01:34.720] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:11:53.324124> NDM-0: [0:01:35.833] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:53.974923> NDM-0: [0:01:36.451] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:11:53.975185> NDM-0: [0:01:36.457] [THCI] Interface Down
+<2019-02-26 06:11:53.975427> NDM-0: [0:01:36.460] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:53.975642> NDM-0: [0:01:36.472] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:11:53.975863> NDM-0: [0:01:36.478] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:11:53.976100> NDM-0: [0:01:36.487] [THCI] Interface Up
+<2019-02-26 06:11:53.976436> NDM-0: [0:01:36.490] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:11:53.997885> NDM-0: [0:01:36.497] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:53.998202> NDM-0: [0:01:36.504] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:11:54.485652> NDM-0: [0:01:36.981] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:11:54.624017> NDM-0: [0:01:37.112] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:58.312460> NDM-0: [0:01:40.782] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:11:58.959515> NDM-0: [0:01:41.400] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:11:58.959816> NDM-0: [0:01:41.406] [THCI] Interface Down
+<2019-02-26 06:11:58.960116> NDM-0: [0:01:41.409] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:58.960485> NDM-0: [0:01:41.421] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:11:58.960875> NDM-0: [0:01:41.427] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:11:58.961262> NDM-0: [0:01:41.436] [THCI] Interface Up
+<2019-02-26 06:11:58.961579> NDM-0: [0:01:41.439] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:11:58.983103> NDM-0: [0:01:41.446] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:11:58.983425> NDM-0: [0:01:41.453] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:11:59.598000> NDM-0: [0:01:42.059] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:12:03.295049> NDM-0: [0:01:45.729] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:12:03.946227> NDM-0: [0:01:46.348] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:12:03.946477> NDM-0: [0:01:46.354] [THCI] Interface Down
+<2019-02-26 06:12:03.946740> NDM-0: [0:01:46.357] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:12:03.946990> NDM-0: [0:01:46.369] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:12:03.947260> NDM-0: [0:01:46.375] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:12:03.947475> NDM-0: [0:01:46.384] [THCI] Interface Up
+<2019-02-26 06:12:03.947740> NDM-0: [0:01:46.387] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:12:03.969360> NDM-0: [0:01:46.394] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:12:03.969684> NDM-0: [0:01:46.401] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:12:04.585849> NDM-0: [0:01:47.009] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:12:04.681822> NDM-0: [0:01:47.109] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:12:05.194950> NDM-0: [0:01:47.619] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:12:06.838379> NDM-0: [0:01:49.249] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:12:07.347592> NDM-0: [0:01:49.757] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:12:08.282350> NDM-0: [0:01:50.678] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:12:08.926199> NDM-0: [0:01:51.297] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:12:08.926486> NDM-0: [0:01:51.303] [THCI] Interface Down
+<2019-02-26 06:12:08.926824> NDM-0: [0:01:51.306] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:12:08.927092> NDM-0: [0:01:51.318] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:12:08.927389> NDM-0: [0:01:51.324] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:12:08.927617> NDM-0: [0:01:51.333] [THCI] Interface Up
+<2019-02-26 06:12:08.927928> NDM-0: [0:01:51.336] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:12:08.949227> NDM-0: [0:01:51.343] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:12:08.949480> NDM-0: [0:01:51.350] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:12:09.569173> NDM-0: [0:01:51.957] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:12:10.339665> NDM-0: [0:01:52.711] [OTHR] [INFO]-MAC-----: Received IPv6 UDP msg, len:83, chksum:671d, from:4e4a60bdb6c14524, sec:yes, prio:low, rss:-84.0
+<2019-02-26 06:12:10.340012> NDM-0: [0:01:52.722] [OTHR] [INFO]-MAC-----: 	src:[fe80:0:0:0:4c4a:60bd:b6c1:4524]:19788
+<2019-02-26 06:12:10.340349> NDM-0: [0:01:52.729] [OTHR] [INFO]-MAC-----: 	dst:[ff02:0:0:0:0:0:0:1]:19788
+<2019-02-26 06:12:13.252564> NDM-0: [0:01:55.618] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:12:13.400025> NDM-0: [0:01:55.743] [OTHR] [INFO]-MAC-----: Received IPv6 UDP msg, len:83, chksum:36d5, from:fe30d8ed7933e8c9, sec:yes, prio:low, rss:-86.0
+<2019-02-26 06:12:13.400557> NDM-0: [0:01:55.755] [OTHR] [INFO]-MAC-----: 	src:[fe80:0:0:0:fc30:d8ed:7933:e8c9]:19788
+<2019-02-26 06:12:13.400943> NDM-0: [0:01:55.762] [OTHR] [INFO]-MAC-----: 	dst:[ff02:0:0:0:0:0:0:1]:19788
+<2019-02-26 06:12:13.899576> NDM-0: [0:01:56.235] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:12:13.899936> NDM-0: [0:01:56.241] [THCI] Interface Down
+<2019-02-26 06:12:13.900327> NDM-0: [0:01:56.244] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:12:13.900712> NDM-0: [0:01:56.256] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:12:13.901127> NDM-0: [0:01:56.262] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:12:13.901411> NDM-0: [0:01:56.271] [THCI] Interface Up
+<2019-02-26 06:12:13.901777> NDM-0: [0:01:56.274] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:12:13.923370> NDM-0: [0:01:56.281] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:12:13.923675> NDM-0: [0:01:56.288] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:12:14.040578> NDM-0: [0:01:56.400] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:12:14.303682> NDM-0: [0:01:56.664] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:12:14.547608> NDM-0: [0:01:56.900] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:12:14.568989> NDM-0: [0:01:56.927] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:12:17.063646> NDM-0: [0:01:59.396] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:12:17.567256> NDM-0: [0:01:59.904] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:12:18.233180> NDM-0: [0:02:00.564] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:12:18.887774> NDM-0: [0:02:01.182] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:12:18.888030> NDM-0: [0:02:01.188] [THCI] Interface Down
+<2019-02-26 06:12:18.888283> NDM-0: [0:02:01.191] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:12:18.888509> NDM-0: [0:02:01.203] [HUNT] 3 (no_scan_results) : 1 (scanning) -> 1 (scanning)
+<2019-02-26 06:12:18.888849> NDM-0: [0:02:01.209] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:12:18.889076> NDM-0: [0:02:01.218] [THCI] Interface Up
+<2019-02-26 06:12:18.889368> NDM-0: [0:02:01.221] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:12:18.910581> NDM-0: [0:02:01.228] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:12:18.910853> NDM-0: [0:02:01.235] [APPL] Drop pair evt 0:3, state 6
+<2019-02-26 06:12:19.059651> NDM-0: [0:02:01.380] [APPL] Resetting boot count and setting good flag
+<2019-02-26 06:12:19.293266> NDM-0: [0:02:01.613] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:12:19.525694> NDM-0: [0:02:01.841] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:12:19.800740> NDM-0: [0:02:02.120] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:12:20.243760> NDM-0: [0:02:02.524] [APPL] Pairing timer expired, state 6
+<2019-02-26 06:12:20.244073> NDM-0: [0:02:02.528] [APPL] Clearing vote for data poll 0 by voter 3
+<2019-02-26 06:12:20.244292> NDM-0: [0:02:02.533] [APPL] Setting datapoll config 2
+<2019-02-26 06:12:20.244505> NDM-0: [0:02:02.538] [NETW] [6LOWPAN] Technology Changes 12688
+<2019-02-26 06:12:20.244737> NDM-0: [0:02:02.542] [NETW] [TECHCTLR] Store: "6LoWPAN" not dirty; not stored
+<2019-02-26 06:12:20.244915> NDM-0: [0:02:02.549] [PAIR] Stopping pairing
+<2019-02-26 06:12:20.245113> NDM-0: [0:02:02.552] [HUNT] 5 (deactivated) : 1 (scanning) -> 0 (idle)
+<2019-02-26 06:12:20.245287> NDM-0: [0:02:02.558] [APPL] Drop pair evt 0:5, state 6
+<2019-02-26 06:12:20.245479> NDM-0: [0:02:02.562] [LEDM] Poking animation with 0x20
+<2019-02-26 06:12:23.228620> NDM-0: [0:02:05.517] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:12:23.533839> NDM-0: [0:02:05.822] [LEDM] <AnimationInterrupt>
+<2019-02-26 06:12:23.534118> NDM-0: [0:02:05.826] [LEDM] Stopping animation!
+<2019-02-26 06:12:23.854043> NDM-0: [0:02:06.133] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:12:23.854389> NDM-0: [0:02:06.139] [THCI] Interface Down
+<2019-02-26 06:12:23.854806> NDM-0: [0:02:06.142] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:12:24.108574> NDM-0: [0:02:06.401] [APPL] Temp 2500
+<2019-02-26 06:12:24.129889> NDM-0: [0:02:06.416] [APPL] NTCs 2650 2600 2595
+<2019-02-26 06:12:25.264543> NDM-0: �  �    � � �� @     [NO EOL]
+<2019-02-26 06:12:52.039801> NDM-0: � �              ���@           �      �  � � � � � � � �  �      [NO EOL]
+<2019-02-26 06:13:24.546588> NDM-0: [0:03:06.414] [APPL] Temp 2506
+<2019-02-26 06:13:24.557504> NDM-0: [0:03:06.429] [APPL] NTCs 2586 2592 2580
+<2019-02-26 06:13:25.641243> NDM-0: � �  0     � � � ���              <   � � � � �   �   �     [NO EOL]
+<2019-02-26 06:14:24.982580> NDM-0: [0:04:06.427] [APPL] Temp 2506
+<2019-02-26 06:14:25.004010> NDM-0: [0:04:06.442] [APPL] NTCs 2592 2628 2567
+<2019-02-26 06:14:26.085345> NDM-0:   �        �� �                             [NO EOL]
+<2019-02-26 06:15:21.265190> NDM-0:  �        � � ��� �                  [NO EOL]
+<2019-02-26 06:15:25.413151> NDM-0: [0:05:06.440] [APPL] Temp 2500
+<2019-02-26 06:15:25.423617> NDM-0: [0:05:06.455] [APPL] NTCs 2586 2600 2567
+<2019-02-26 06:15:26.510074> NDM-0:  �         � ���            � ?  v  � �  ~            [NO EOL]
+<2019-02-26 06:16:25.843248> NDM-0: [0:06:06.453] [APPL] Temp 2500
+<2019-02-26 06:16:25.864748> NDM-0: [0:06:06.468] [APPL] NTCs 2577 2600 2570
+<2019-02-26 06:16:26.935990> NDM-0:  �       ~  � � ��  4     ~ � �  �@ � �   ( �    [NO EOL]
+<2019-02-26 06:17:19.673560> NDM-M: Note: pressing button button_btn on port 0 and waiting 0.0s - begin
+<2019-02-26 06:17:21.112618> NDM-M: Note: pressing button button_btn on port 0 and waiting 0.0s - end
+<2019-02-26 06:17:21.112807> NDM-M: Note: NDM triggered reboot
+<2019-02-26 06:17:21.112943> NDM-M: Note: expecting any patterns from ['USB Mass Storage Selected', 'Welcome to Agate App'] using log lines and 2000 search window in 5s
+<2019-02-26 06:17:21.113625> NDM-M: Note: click button reset_btn on port 0 for duration 0.5 - begin
+<2019-02-26 06:17:21.616019> NDM-M: Note: click button reset_btn on port 0 for duration 0.5 - end
+<2019-02-26 06:17:21.888440> NDM-0: 
+<2019-02-26 06:17:21.888770> NDM-0: Bootloader 1.0a41
+<2019-02-26 06:17:22.036533> NDM-0: Ua1[NO EOL]
+<2019-02-26 06:17:22.141063> NDM-0: v0
+<2019-02-26 06:17:22.162002> NDM-0: Model 1.3 Check for entropyprov
+<2019-02-26 06:17:22.340541> NDM-0: 
+<2019-02-26 06:17:22.340899> NDM-0: 
+<2019-02-26 06:17:22.341217> NDM-0: Welcome to Agate AUPD
+<2019-02-26 06:17:22.341472> NDM-0: 
+<2019-02-26 06:17:22.341794> NDM-0: 1.0a41 Aug 29 2018 09:12:58
+<2019-02-26 06:17:22.342115> NDM-0: 
+<2019-02-26 06:17:22.532603> NDM-0: [APPL] Filled BCs
+<2019-02-26 06:17:22.532856> NDM-0: Last reset reason: unknown
+<2019-02-26 06:17:22.543757> NDM-0: No previous fault info
+<2019-02-26 06:17:22.554799> NDM-0: USB Mass Storage Selected
+<2019-02-26 06:17:22.555109> NDM-0: 
+<2019-02-26 06:17:22.560394> NDM-M: Note: found pattern 'USB Mass Storage Selected' at index 0
+<2019-02-26 06:17:22.560640> NDM-M: Note: mode any expect completed with u'Welcome to Agate App' remaining patterns in 0.944258928299s
+<2019-02-26 06:17:22.562109> NDM-M: Note: released button button_btn
+<2019-02-26 06:17:44.644973> NDM-0: 0/450248 (0%)512/450248 (0%)1024/450248 (0%)1536/450248 (0%)2048/450248 (0%)2560/450248 (0%)3072/450248 (0%)3584/450248 (0%)4096/450248 (0%)[NO EOL]
+<2019-02-26 06:17:44.837060> NDM-0: 4608/450248 (1%)5120/450248 (1%)5632/450248 (1%)6144/450248 (1%)6656/450248 (1%)7168/450248 (1%)7680/450248 (1%)8192/450248 (1%)[NO EOL]
+<2019-02-26 06:17:45.039291> NDM-0: 8704/450248 (1%)9216/450248 (2%)9728/450248 (2%)10240/450248 (2%)10752/450248 (2%)11264/450248 (2%)11776/450248 (2%)12288/450248 (2%)[NO EOL]
+<2019-02-26 06:17:45.230245> NDM-0: 12800/450248 (2%)13312/450248 (2%)13824/450248 (3%)14336/450248 (3%)14848/450248 (3%)15360/450248 (3%)15872/450248 (3%)16384/450248 (3%)[NO EOL]
+<2019-02-26 06:17:45.421628> NDM-0: 16896/450248 (3%)17408/450248 (3%)17920/450248 (3%)18432/450248 (4%)18944/450248 (4%)19456/450248 (4%)19968/450248 (4%)20480/450248 (4%)[NO EOL]
+<2019-02-26 06:17:45.602384> NDM-0: 20992/450248 (4%)21504/450248 (4%)22016/450248 (4%)22528/450248 (5%)23040/450248 (5%)23552/450248 (5%)24064/450248 (5%)24576/450248 (5%)[NO EOL]
+<2019-02-26 06:17:45.792613> NDM-0: 25088/450248 (5%)25600/450248 (5%)26112/450248 (5%)26624/450248 (5%)27136/450248 (6%)27648/450248 (6%)28160/450248 (6%)28672/450248 (6%)[NO EOL]
+<2019-02-26 06:17:45.983922> NDM-0: 29184/450248 (6%)29696/450248 (6%)30208/450248 (6%)30720/450248 (6%)31232/450248 (6%)31744/450248 (7%)32256/450248 (7%)32768/450248 (7%)[NO EOL]
+<2019-02-26 06:17:46.174267> NDM-0: 33280/450248 (7%)33792/450248 (7%)34304/450248 (7%)34816/450248 (7%)35328/450248 (7%)35840/450248 (7%)36352/450248 (8%)36864/450248 (8%)[NO EOL]
+<2019-02-26 06:17:46.375534> NDM-0: 37376/450248 (8%)37888/450248 (8%)38400/450248 (8%)38912/450248 (8%)39424/450248 (8%)39936/450248 (8%)40448/450248 (8%)40960/450248 (9%)[NO EOL]
+<2019-02-26 06:17:46.567596> NDM-0: 41472/450248 (9%)41984/450248 (9%)42496/450248 (9%)43008/450248 (9%)43520/450248 (9%)44032/450248 (9%)44544/450248 (9%)45056/450248 (10%)[NO EOL]
+<2019-02-26 06:17:46.759760> NDM-0: 45568/450248 (10%)46080/450248 (10%)46592/450248 (10%)47104/450248 (10%)47616/450248 (10%)48128/450248 (10%)48640/450248 (10%)49152/450248 (10%)[NO EOL]
+<2019-02-26 06:17:46.962043> NDM-0: 49664/450248 (11%)50176/450248 (11%)50688/450248 (11%)51200/450248 (11%)51712/450248 (11%)52224/450248 (11%)52736/450248 (11%)53248/450248 (11%)[NO EOL]
+<2019-02-26 06:17:47.164572> NDM-0: 53760/450248 (11%)54272/450248 (12%)54784/450248 (12%)55296/450248 (12%)55808/450248 (12%)56320/450248 (12%)56832/450248 (12%)57344/450248 (12%)[NO EOL]
+<2019-02-26 06:17:47.356681> NDM-0: 57856/450248 (12%)58368/450248 (12%)58880/450248 (13%)59392/450248 (13%)59904/450248 (13%)60416/450248 (13%)60928/450248 (13%)61440/450248 (13%)[NO EOL]
+<2019-02-26 06:17:47.548625> NDM-0: 61952/450248 (13%)62464/450248 (13%)62976/450248 (13%)63488/450248 (14%)64000/450248 (14%)64512/450248 (14%)65024/450248 (14%)65536/450248 (14%)[NO EOL]
+<2019-02-26 06:17:47.761018> NDM-0: 66048/450248 (14%)66560/450248 (14%)67072/450248 (14%)67584/450248 (15%)68096/450248 (15%)68608/450248 (15%)69120/450248 (15%)69632/450248 (15%)[NO EOL]
+<2019-02-26 06:17:47.942641> NDM-0: 70144/450248 (15%)70656/450248 (15%)71168/450248 (15%)71680/450248 (15%)72192/450248 (16%)72704/450248 (16%)73216/450248 (16%)73728/450248 (16%)[NO EOL]
+<2019-02-26 06:17:48.143727> NDM-0: 74240/450248 (16%)74752/450248 (16%)75264/450248 (16%)75776/450248 (16%)76288/450248 (16%)76800/450248 (17%)77312/450248 (17%)77824/450248 (17%)[NO EOL]
+<2019-02-26 06:17:48.335889> NDM-0: 78336/450248 (17%)78848/450248 (17%)79360/450248 (17%)79872/450248 (17%)80384/450248 (17%)80896/450248 (17%)81408/450248 (18%)81920/450248 (18%)[NO EOL]
+<2019-02-26 06:17:48.527754> NDM-0: 82432/450248 (18%)82944/450248 (18%)83456/450248 (18%)83968/450248 (18%)84480/450248 (18%)84992/450248 (18%)85504/450248 (18%)86016/450248 (19%)[NO EOL]
+<2019-02-26 06:17:48.720630> NDM-0: 86528/450248 (19%)87040/450248 (19%)87552/450248 (19%)88064/450248 (19%)88576/450248 (19%)89088/450248 (19%)89600/450248 (19%)90112/450248 (20%)[NO EOL]
+<2019-02-26 06:17:48.900577> NDM-0: 90624/450248 (20%)91136/450248 (20%)91648/450248 (20%)92160/450248 (20%)92672/450248 (20%)93184/450248 (20%)93696/450248 (20%)94208/450248 (20%)[NO EOL]
+<2019-02-26 06:17:49.092659> NDM-0: 94720/450248 (21%)95232/450248 (21%)95744/450248 (21%)96256/450248 (21%)96768/450248 (21%)97280/450248 (21%)97792/450248 (21%)98304/450248 (21%)[NO EOL]
+<2019-02-26 06:17:49.283324> NDM-0: 98816/450248 (21%)99328/450248 (22%)99840/450248 (22%)100352/450248 (22%)100864/450248 (22%)101376/450248 (22%)101888/450248 (22%)102400/450248 (22%)[NO EOL]
+<2019-02-26 06:17:49.485490> NDM-0: 102912/450248 (22%)103424/450248 (22%)103936/450248 (23%)104448/450248 (23%)104960/450248 (23%)105472/450248 (23%)105984/450248 (23%)106496/450248 (23%)[NO EOL]
+<2019-02-26 06:17:49.676919> NDM-0: 107008/450248 (23%)107520/450248 (23%)108032/450248 (23%)108544/450248 (24%)109056/450248 (24%)109568/450248 (24%)110080/450248 (24%)110592/450248 (24%)[NO EOL]
+<2019-02-26 06:17:49.857116> NDM-0: 111104/450248 (24%)111616/450248 (24%)112128/450248 (24%)112640/450248 (25%)113152/450248 (25%)113664/450248 (25%)114176/450248 (25%)114688/450248 (25%)[NO EOL]
+<2019-02-26 06:17:50.057347> NDM-0: 115200/450248 (25%)115712/450248 (25%)116224/450248 (25%)116736/450248 (25%)117248/450248 (26%)117760/450248 (26%)118272/450248 (26%)118784/450248 (26%)[NO EOL]
+<2019-02-26 06:17:50.259767> NDM-0: 119296/450248 (26%)119808/450248 (26%)120320/450248 (26%)120832/450248 (26%)121344/450248 (26%)121856/450248 (27%)122368/450248 (27%)122880/450248 (27%)[NO EOL]
+<2019-02-26 06:17:50.439820> NDM-0: 123392/450248 (27%)123904/450248 (27%)124416/450248 (27%)124928/450248 (27%)125440/450248 (27%)125952/450248 (27%)126464/450248 (28%)126976/450248 (28%)[NO EOL]
+<2019-02-26 06:17:50.631786> NDM-0: 127488/450248 (28%)128000/450248 (28%)128512/450248 (28%)129024/450248 (28%)129536/450248 (28%)130048/450248 (28%)130560/450248 (28%)131072/450248 (29%)[NO EOL]
+<2019-02-26 06:17:50.822551> NDM-0: 131584/450248 (29%)132096/450248 (29%)132608/450248 (29%)133120/450248 (29%)133632/450248 (29%)134144/450248 (29%)134656/450248 (29%)135168/450248 (30%)[NO EOL]
+<2019-02-26 06:17:51.026034> NDM-0: 135680/450248 (30%)136192/450248 (30%)136704/450248 (30%)137216/450248 (30%)137728/450248 (30%)138240/450248 (30%)138752/450248 (30%)139264/450248 (30%)[NO EOL]
+<2019-02-26 06:17:51.218060> NDM-0: 139776/450248 (31%)140288/450248 (31%)140800/450248 (31%)141312/450248 (31%)141824/450248 (31%)142336/450248 (31%)142848/450248 (31%)143360/450248 (31%)[NO EOL]
+<2019-02-26 06:17:51.398534> NDM-0: 143872/450248 (31%)144384/450248 (32%)144896/450248 (32%)145408/450248 (32%)145920/450248 (32%)146432/450248 (32%)146944/450248 (32%)147456/450248 (32%)[NO EOL]
+<2019-02-26 06:17:51.600084> NDM-0: 147968/450248 (32%)148480/450248 (32%)148992/450248 (33%)149504/450248 (33%)150016/450248 (33%)150528/450248 (33%)151040/450248 (33%)151552/450248 (33%)[NO EOL]
+<2019-02-26 06:17:51.802232> NDM-0: 152064/450248 (33%)152576/450248 (33%)153088/450248 (34%)153600/450248 (34%)154112/450248 (34%)154624/450248 (34%)155136/450248 (34%)155648/450248 (34%)[NO EOL]
+<2019-02-26 06:17:51.993088> NDM-0: 156160/450248 (34%)156672/450248 (34%)157184/450248 (34%)157696/450248 (35%)158208/450248 (35%)158720/450248 (35%)159232/450248 (35%)159744/450248 (35%)[NO EOL]
+<2019-02-26 06:17:52.184004> NDM-0: 160256/450248 (35%)160768/450248 (35%)161280/450248 (35%)161792/450248 (35%)162304/450248 (36%)162816/450248 (36%)163328/450248 (36%)163840/450248 (36%)[NO EOL]
+<2019-02-26 06:17:52.386679> NDM-0: 164352/450248 (36%)164864/450248 (36%)165376/450248 (36%)165888/450248 (36%)166400/450248 (36%)166912/450248 (37%)167424/450248 (37%)167936/450248 (37%)[NO EOL]
+<2019-02-26 06:17:52.577189> NDM-0: 168448/450248 (37%)168960/450248 (37%)169472/450248 (37%)169984/450248 (37%)170496/450248 (37%)171008/450248 (37%)171520/450248 (38%)172032/450248 (38%)[NO EOL]
+<2019-02-26 06:17:52.764488> NDM-0: 172544/450248 (38%)173056/450248 (38%)173568/450248 (38%)174080/450248 (38%)174592/450248 (38%)175104/450248 (38%)175616/450248 (39%)176128/450248 (39%)[NO EOL]
+<2019-02-26 06:17:52.952529> NDM-0: 176640/450248 (39%)177152/450248 (39%)177664/450248 (39%)178176/450248 (39%)178688/450248 (39%)179200/450248 (39%)179712/450248 (39%)180224/450248 (40%)[NO EOL]
+<2019-02-26 06:17:53.152880> NDM-0: 180736/450248 (40%)181248/450248 (40%)181760/450248 (40%)182272/450248 (40%)182784/450248 (40%)183296/450248 (40%)183808/450248 (40%)184320/450248 (40%)[NO EOL]
+<2019-02-26 06:17:53.342995> NDM-0: 184832/450248 (41%)185344/450248 (41%)185856/450248 (41%)186368/450248 (41%)186880/450248 (41%)187392/450248 (41%)187904/450248 (41%)188416/450248 (41%)[NO EOL]
+<2019-02-26 06:17:53.545461> NDM-0: 188928/450248 (41%)189440/450248 (42%)189952/450248 (42%)190464/450248 (42%)[NO EOL]
+<2019-02-26 06:17:53.896255> NDM-0: 190976/450248 (42%)191488/450248 (42%)192000/450248 (42%)192512/450248 (42%)[NO EOL]
+<2019-02-26 06:17:54.245581> NDM-0: 193024/450248 (42%)193536/450248 (42%)194048/450248 (43%)194560/450248 (43%)[NO EOL]
+<2019-02-26 06:17:54.596544> NDM-0: 195072/450248 (43%)195584/450248 (43%)196096/450248 (43%)196608/450248 (43%)[NO EOL]
+<2019-02-26 06:17:54.948072> NDM-0: 197120/450248 (43%)197632/450248 (43%)198144/450248 (44%)198656/450248 (44%)[NO EOL]
+<2019-02-26 06:17:55.297891> NDM-0: 199168/450248 (44%)199680/450248 (44%)200192/450248 (44%)200704/450248 (44%)[NO EOL]
+<2019-02-26 06:17:55.648017> NDM-0: 201216/450248 (44%)201728/450248 (44%)202240/450248 (44%)202752/450248 (45%)[NO EOL]
+<2019-02-26 06:17:55.998007> NDM-0: 203264/450248 (45%)203776/450248 (45%)204288/450248 (45%)204800/450248 (45%)[NO EOL]
+<2019-02-26 06:17:56.335505> NDM-0: 205312/450248 (45%)205824/450248 (45%)206336/450248 (45%)206848/450248 (45%)[NO EOL]
+<2019-02-26 06:17:56.686511> NDM-0: 207360/450248 (46%)207872/450248 (46%)208384/450248 (46%)208896/450248 (46%)[NO EOL]
+<2019-02-26 06:17:57.035477> NDM-0: 209408/450248 (46%)209920/450248 (46%)210432/450248 (46%)210944/450248 (46%)[NO EOL]
+<2019-02-26 06:17:57.407200> NDM-0: 211456/450248 (46%)211968/450248 (47%)212480/450248 (47%)212992/450248 (47%)[NO EOL]
+<2019-02-26 06:17:57.756253> NDM-0: 213504/450248 (47%)214016/450248 (47%)214528/450248 (47%)215040/450248 (47%)[NO EOL]
+<2019-02-26 06:17:58.106242> NDM-0: 215552/450248 (47%)216064/450248 (47%)216576/450248 (48%)217088/450248 (48%)[NO EOL]
+<2019-02-26 06:17:58.456128> NDM-0: 217600/450248 (48%)218112/450248 (48%)218624/450248 (48%)219136/450248 (48%)[NO EOL]
+<2019-02-26 06:17:58.796333> NDM-0: 219648/450248 (48%)220160/450248 (48%)220672/450248 (49%)221184/450248 (49%)[NO EOL]
+<2019-02-26 06:17:59.146649> NDM-0: 221696/450248 (49%)222208/450248 (49%)222720/450248 (49%)223232/450248 (49%)[NO EOL]
+<2019-02-26 06:17:59.486591> NDM-0: 223744/450248 (49%)224256/450248 (49%)224768/450248 (49%)225280/450248 (50%)[NO EOL]
+<2019-02-26 06:17:59.814765> NDM-0: 225792/450248 (50%)226304/450248 (50%)226816/450248 (50%)227328/450248 (50%)[NO EOL]
+<2019-02-26 06:18:00.164128> NDM-0: 227840/450248 (50%)228352/450248 (50%)228864/450248 (50%)229376/450248 (50%)[NO EOL]
+<2019-02-26 06:18:00.524237> NDM-0: 229888/450248 (51%)230400/450248 (51%)230912/450248 (51%)231424/450248 (51%)[NO EOL]
+<2019-02-26 06:18:00.853712> NDM-0: 231936/450248 (51%)232448/450248 (51%)232960/450248 (51%)233472/450248 (51%)[NO EOL]
+<2019-02-26 06:18:01.192905> NDM-0: 233984/450248 (51%)234496/450248 (52%)235008/450248 (52%)235520/450248 (52%)[NO EOL]
+<2019-02-26 06:18:01.544083> NDM-0: 236032/450248 (52%)236544/450248 (52%)237056/450248 (52%)237568/450248 (52%)[NO EOL]
+<2019-02-26 06:18:01.891225> NDM-0: 238080/450248 (52%)238592/450248 (52%)239104/450248 (53%)239616/450248 (53%)[NO EOL]
+<2019-02-26 06:18:02.245803> NDM-0: 240128/450248 (53%)240640/450248 (53%)241152/450248 (53%)241664/450248 (53%)[NO EOL]
+<2019-02-26 06:18:02.600344> NDM-0: 242176/450248 (53%)242688/450248 (53%)243200/450248 (54%)243712/450248 (54%)[NO EOL]
+<2019-02-26 06:18:02.947970> NDM-0: 244224/450248 (54%)244736/450248 (54%)245248/450248 (54%)245760/450248 (54%)[NO EOL]
+<2019-02-26 06:18:03.297038> NDM-0: 246272/450248 (54%)246784/450248 (54%)247296/450248 (54%)247808/450248 (55%)[NO EOL]
+<2019-02-26 06:18:03.633939> NDM-0: 248320/450248 (55%)248832/450248 (55%)249344/450248 (55%)249856/450248 (55%)[NO EOL]
+<2019-02-26 06:18:03.988711> NDM-0: 250368/450248 (55%)250880/450248 (55%)251392/450248 (55%)251904/450248 (55%)[NO EOL]
+<2019-02-26 06:18:04.333118> NDM-0: 252416/450248 (56%)252928/450248 (56%)253440/450248 (56%)253952/450248 (56%)[NO EOL]
+<2019-02-26 06:18:04.687733> NDM-0: 254464/450248 (56%)254976/450248 (56%)255488/450248 (56%)256000/450248 (56%)[NO EOL]
+<2019-02-26 06:18:05.035176> NDM-0: 256512/450248 (56%)257024/450248 (57%)257536/450248 (57%)258048/450248 (57%)[NO EOL]
+<2019-02-26 06:18:05.385709> NDM-0: 258560/450248 (57%)259072/450248 (57%)259584/450248 (57%)260096/450248 (57%)[NO EOL]
+<2019-02-26 06:18:05.724719> NDM-0: 260608/450248 (57%)261120/450248 (57%)261632/450248 (58%)262144/450248 (58%)[NO EOL]
+<2019-02-26 06:18:06.073552> NDM-0: 262656/450248 (58%)263168/450248 (58%)263680/450248 (58%)264192/450248 (58%)[NO EOL]
+<2019-02-26 06:18:06.424797> NDM-0: 264704/450248 (58%)265216/450248 (58%)265728/450248 (59%)266240/450248 (59%)[NO EOL]
+<2019-02-26 06:18:06.753045> NDM-0: 266752/450248 (59%)267264/450248 (59%)267776/450248 (59%)268288/450248 (59%)[NO EOL]
+<2019-02-26 06:18:07.102037> NDM-0: 268800/450248 (59%)269312/450248 (59%)269824/450248 (59%)270336/450248 (60%)[NO EOL]
+<2019-02-26 06:18:07.438035> NDM-0: 270848/450248 (60%)271360/450248 (60%)271872/450248 (60%)272384/450248 (60%)[NO EOL]
+<2019-02-26 06:18:07.797160> NDM-0: 272896/450248 (60%)273408/450248 (60%)273920/450248 (60%)274432/450248 (60%)[NO EOL]
+<2019-02-26 06:18:08.156723> NDM-0: 274944/450248 (61%)275456/450248 (61%)275968/450248 (61%)276480/450248 (61%)[NO EOL]
+<2019-02-26 06:18:08.518356> NDM-0: 276992/450248 (61%)277504/450248 (61%)278016/450248 (61%)278528/450248 (61%)[NO EOL]
+<2019-02-26 06:18:08.858175> NDM-0: 279040/450248 (61%)279552/450248 (62%)280064/450248 (62%)280576/450248 (62%)[NO EOL]
+<2019-02-26 06:18:09.198526> NDM-0: 281088/450248 (62%)281600/450248 (62%)282112/450248 (62%)282624/450248 (62%)[NO EOL]
+<2019-02-26 06:18:09.550485> NDM-0: 283136/450248 (62%)283648/450248 (62%)284160/450248 (63%)284672/450248 (63%)[NO EOL]
+<2019-02-26 06:18:09.891184> NDM-0: 285184/450248 (63%)285696/450248 (63%)286208/450248 (63%)286720/450248 (63%)[NO EOL]
+<2019-02-26 06:18:10.241145> NDM-0: 287232/450248 (63%)287744/450248 (63%)288256/450248 (64%)288768/450248 (64%)[NO EOL]
+<2019-02-26 06:18:10.570480> NDM-0: 289280/450248 (64%)289792/450248 (64%)290304/450248 (64%)290816/450248 (64%)[NO EOL]
+<2019-02-26 06:18:10.928713> NDM-0: 291328/450248 (64%)291840/450248 (64%)292352/450248 (64%)292864/450248 (65%)[NO EOL]
+<2019-02-26 06:18:11.279726> NDM-0: 293376/450248 (65%)293888/450248 (65%)294400/450248 (65%)294912/450248 (65%)[NO EOL]
+<2019-02-26 06:18:11.609667> NDM-0: 295424/450248 (65%)295936/450248 (65%)296448/450248 (65%)296960/450248 (65%)[NO EOL]
+<2019-02-26 06:18:11.960245> NDM-0: 297472/450248 (66%)297984/450248 (66%)298496/450248 (66%)299008/450248 (66%)[NO EOL]
+<2019-02-26 06:18:12.322188> NDM-0: 299520/450248 (66%)300032/450248 (66%)300544/450248 (66%)301056/450248 (66%)[NO EOL]
+<2019-02-26 06:18:12.673384> NDM-0: 301568/450248 (66%)302080/450248 (67%)302592/450248 (67%)303104/450248 (67%)[NO EOL]
+<2019-02-26 06:18:13.023253> NDM-0: 303616/450248 (67%)304128/450248 (67%)304640/450248 (67%)305152/450248 (67%)[NO EOL]
+<2019-02-26 06:18:13.374298> NDM-0: 305664/450248 (67%)306176/450248 (68%)306688/450248 (68%)307200/450248 (68%)[NO EOL]
+<2019-02-26 06:18:13.734629> NDM-0: 307712/450248 (68%)308224/450248 (68%)308736/450248 (68%)309248/450248 (68%)[NO EOL]
+<2019-02-26 06:18:14.083815> NDM-0: 309760/450248 (68%)310272/450248 (68%)310784/450248 (69%)311296/450248 (69%)[NO EOL]
+<2019-02-26 06:18:14.433555> NDM-0: 311808/450248 (69%)312320/450248 (69%)312832/450248 (69%)313344/450248 (69%)[NO EOL]
+<2019-02-26 06:18:14.783333> NDM-0: 313856/450248 (69%)314368/450248 (69%)314880/450248 (69%)315392/450248 (70%)[NO EOL]
+<2019-02-26 06:18:15.132720> NDM-0: 315904/450248 (70%)316416/450248 (70%)316928/450248 (70%)317440/450248 (70%)[NO EOL]
+<2019-02-26 06:18:15.482297> NDM-0: 317952/450248 (70%)318464/450248 (70%)318976/450248 (70%)319488/450248 (70%)[NO EOL]
+<2019-02-26 06:18:15.673915> NDM-0: 320000/450248 (71%)320512/450248 (71%)321024/450248 (71%)321536/450248 (71%)322048/450248 (71%)322560/450248 (71%)323072/450248 (71%)323584/450248 (71%)[NO EOL]
+<2019-02-26 06:18:15.876618> NDM-0: 324096/450248 (71%)324608/450248 (72%)325120/450248 (72%)325632/450248 (72%)326144/450248 (72%)326656/450248 (72%)327168/450248 (72%)327680/450248 (72%)[NO EOL]
+<2019-02-26 06:18:16.088586> NDM-0: 328192/450248 (72%)328704/450248 (73%)329216/450248 (73%)329728/450248 (73%)330240/450248 (73%)330752/450248 (73%)331264/450248 (73%)331776/450248 (73%)[NO EOL]
+<2019-02-26 06:18:16.290731> NDM-0: 332288/450248 (73%)332800/450248 (73%)333312/450248 (74%)333824/450248 (74%)334336/450248 (74%)334848/450248 (74%)335360/450248 (74%)335872/450248 (74%)[NO EOL]
+<2019-02-26 06:18:16.492998> NDM-0: 336384/450248 (74%)336896/450248 (74%)337408/450248 (74%)337920/450248 (75%)338432/450248 (75%)338944/450248 (75%)339456/450248 (75%)339968/450248 (75%)[NO EOL]
+<2019-02-26 06:18:16.694399> NDM-0: 340480/450248 (75%)340992/450248 (75%)341504/450248 (75%)342016/450248 (75%)342528/450248 (76%)343040/450248 (76%)343552/450248 (76%)344064/450248 (76%)[NO EOL]
+<2019-02-26 06:18:16.885140> NDM-0: 344576/450248 (76%)345088/450248 (76%)345600/450248 (76%)346112/450248 (76%)346624/450248 (76%)347136/450248 (77%)347648/450248 (77%)348160/450248 (77%)[NO EOL]
+<2019-02-26 06:18:17.076612> NDM-0: 348672/450248 (77%)349184/450248 (77%)349696/450248 (77%)350208/450248 (77%)350720/450248 (77%)351232/450248 (78%)351744/450248 (78%)352256/450248 (78%)[NO EOL]
+<2019-02-26 06:18:17.278805> NDM-0: 352768/450248 (78%)353280/450248 (78%)353792/450248 (78%)354304/450248 (78%)354816/450248 (78%)355328/450248 (78%)355840/450248 (79%)356352/450248 (79%)[NO EOL]
+<2019-02-26 06:18:17.469945> NDM-0: 356864/450248 (79%)357376/450248 (79%)357888/450248 (79%)358400/450248 (79%)358912/450248 (79%)359424/450248 (79%)359936/450248 (79%)360448/450248 (80%)[NO EOL]
+<2019-02-26 06:18:17.650118> NDM-0: 360960/450248 (80%)361472/450248 (80%)361984/450248 (80%)362496/450248 (80%)363008/450248 (80%)363520/450248 (80%)364032/450248 (80%)364544/450248 (80%)[NO EOL]
+<2019-02-26 06:18:17.841765> NDM-0: 365056/450248 (81%)365568/450248 (81%)366080/450248 (81%)366592/450248 (81%)367104/450248 (81%)367616/450248 (81%)368128/450248 (81%)368640/450248 (81%)[NO EOL]
+<2019-02-26 06:18:18.042833> NDM-0: 369152/450248 (81%)369664/450248 (82%)370176/450248 (82%)370688/450248 (82%)371200/450248 (82%)371712/450248 (82%)372224/450248 (82%)372736/450248 (82%)[NO EOL]
+<2019-02-26 06:18:18.234252> NDM-0: 373248/450248 (82%)373760/450248 (83%)374272/450248 (83%)374784/450248 (83%)375296/450248 (83%)375808/450248 (83%)376320/450248 (83%)376832/450248 (83%)[NO EOL]
+<2019-02-26 06:18:18.435363> NDM-0: 377344/450248 (83%)377856/450248 (83%)378368/450248 (84%)378880/450248 (84%)379392/450248 (84%)379904/450248 (84%)380416/450248 (84%)380928/450248 (84%)[NO EOL]
+<2019-02-26 06:18:18.627044> NDM-0: 381440/450248 (84%)381952/450248 (84%)382464/450248 (84%)382976/450248 (85%)383488/450248 (85%)384000/450248 (85%)384512/450248 (85%)385024/450248 (85%)[NO EOL]
+<2019-02-26 06:18:18.828700> NDM-0: 385536/450248 (85%)386048/450248 (85%)386560/450248 (85%)387072/450248 (85%)387584/450248 (86%)388096/450248 (86%)388608/450248 (86%)389120/450248 (86%)[NO EOL]
+<2019-02-26 06:18:19.030658> NDM-0: 389632/450248 (86%)390144/450248 (86%)390656/450248 (86%)391168/450248 (86%)391680/450248 (86%)392192/450248 (87%)392704/450248 (87%)393216/450248 (87%)[NO EOL]
+<2019-02-26 06:18:19.221821> NDM-0: 393728/450248 (87%)394240/450248 (87%)394752/450248 (87%)395264/450248 (87%)395776/450248 (87%)396288/450248 (88%)396800/450248 (88%)397312/450248 (88%)[NO EOL]
+<2019-02-26 06:18:19.413417> NDM-0: 397824/450248 (88%)398336/450248 (88%)398848/450248 (88%)399360/450248 (88%)399872/450248 (88%)400384/450248 (88%)400896/450248 (89%)401408/450248 (89%)[NO EOL]
+<2019-02-26 06:18:19.616151> NDM-0: 401920/450248 (89%)402432/450248 (89%)402944/450248 (89%)403456/450248 (89%)403968/450248 (89%)404480/450248 (89%)404992/450248 (89%)405504/450248 (90%)[NO EOL]
+<2019-02-26 06:18:19.817705> NDM-0: 406016/450248 (90%)406528/450248 (90%)407040/450248 (90%)407552/450248 (90%)408064/450248 (90%)408576/450248 (90%)409088/450248 (90%)409600/450248 (90%)[NO EOL]
+<2019-02-26 06:18:20.019462> NDM-0: 410112/450248 (91%)410624/450248 (91%)411136/450248 (91%)411648/450248 (91%)412160/450248 (91%)412672/450248 (91%)413184/450248 (91%)413696/450248 (91%)[NO EOL]
+<2019-02-26 06:18:20.188703> NDM-0: 414208/450248 (91%)414720/450248 (92%)415232/450248 (92%)415744/450248 (92%)416256/450248 (92%)416768/450248 (92%)417280/450248 (92%)417792/450248 (92%)[NO EOL]
+<2019-02-26 06:18:20.379931> NDM-0: 418304/450248 (92%)418816/450248 (93%)419328/450248 (93%)419840/450248 (93%)420352/450248 (93%)420864/450248 (93%)421376/450248 (93%)421888/450248 (93%)[NO EOL]
+<2019-02-26 06:18:20.582027> NDM-0: 422400/450248 (93%)422912/450248 (93%)423424/450248 (94%)423936/450248 (94%)424448/450248 (94%)424960/450248 (94%)425472/450248 (94%)425984/450248 (94%)[NO EOL]
+<2019-02-26 06:18:20.773210> NDM-0: 426496/450248 (94%)427008/450248 (94%)427520/450248 (94%)428032/450248 (95%)428544/450248 (95%)429056/450248 (95%)429568/450248 (95%)430080/450248 (95%)[NO EOL]
+<2019-02-26 06:18:20.964235> NDM-0: 430592/450248 (95%)431104/450248 (95%)431616/450248 (95%)432128/450248 (95%)432640/450248 (96%)433152/450248 (96%)433664/450248 (96%)434176/450248 (96%)[NO EOL]
+<2019-02-26 06:18:21.165388> NDM-0: 434688/450248 (96%)435200/450248 (96%)435712/450248 (96%)436224/450248 (96%)436736/450248 (96%)437248/450248 (97%)437760/450248 (97%)438272/450248 (97%)[NO EOL]
+<2019-02-26 06:18:21.357453> NDM-0: 438784/450248 (97%)439296/450248 (97%)439808/450248 (97%)440320/450248 (97%)440832/450248 (97%)441344/450248 (98%)441856/450248 (98%)442368/450248 (98%)[NO EOL]
+<2019-02-26 06:18:21.558999> NDM-0: 442880/450248 (98%)443392/450248 (98%)443904/450248 (98%)444416/450248 (98%)444928/450248 (98%)445440/450248 (98%)445952/450248 (99%)446464/450248 (99%)[NO EOL]
+<2019-02-26 06:18:21.634559> NDM-0: 446976/450248 (99%)447488/450248 (99%)448000/450248 (99%)448512/450248 (99%)449024/450248 (99%)449536/450248 (99%)450048/450248 (99%)450248/450248 (100%)
+<2019-02-26 06:18:22.258209> NDM-0: 
+<2019-02-26 06:18:22.279912> NDM-0: Bootloader 1.0a41
+<2019-02-26 06:18:23.952090> NDM-M: Note: expecting any patterns from ['Bootloader'] using all lines and 2000 search window in 60s
+<2019-02-26 06:18:24.319531> NDM-0: AG1:e116e58a3db3ab47
+<2019-02-26 06:18:24.372825> NDM-0: SDV0
+<2019-02-26 06:18:24.458054> NDM-0: [0:00:00.000] [NLER] created queue 0x20002f00 at 0x20010e0c
+<2019-02-26 06:18:24.458648> NDM-0: [0:00:00.000] [NLER] created queue 0x20002f58 at 0x20012d04
+<2019-02-26 06:18:24.459280> NDM-0: [0:00:00.000] [NLER] setting application tag for task 0x2000358c ('USB task') to 0x20010948
+<2019-02-26 06:18:24.459742> NDM-0: [0:00:00.011] [NLER] setting application tag for task 0x200035d8 ('ctrl') to 0x20001740
+<2019-02-26 06:18:24.460253> NDM-0: [0:00:00.018] [APPL] Control Watchdog ID = 0
+<2019-02-26 06:18:24.461011> NDM-0: [0:00:00.024] [NLER] setting application tag for task 0x20003624 ('app') to 0x20001d84
+<2019-02-26 06:18:24.472295> NDM-0: [0:00:00.039] [APPL] Found 6 cached RAM consoles, most recent index 0
+<2019-02-26 06:18:24.472561> NDM-0: [0:00:00.045] [APPL] App Watchdog ID = 1
+<2019-02-26 06:18:24.515048> NDM-0: [0:00:00.059] [APPL] Resetting rollback boot count
+<2019-02-26 06:18:24.515493> NDM-0: [0:00:00.063] [APPL] Welcome to Agate App
+<2019-02-26 06:18:24.516082> NDM-0: [0:00:00.067] [APPL] Reset cause: 04
+<2019-02-26 06:18:24.516460> NDM-0: Reset Event(s) : Software Reset
+<2019-02-26 06:18:24.517067> NDM-0: [0:00:00.075] [APPL] Serial #: 23AA01AC0318011Q
+<2019-02-26 06:18:24.517640> NDM-0: [0:00:00.082] [APPL] Battery voltage 3184, USB powered, proceeding with boot
+<2019-02-26 06:18:24.750274> NDM-0: [0:00:00.284] [APPL] Filled BCs
+<2019-02-26 06:18:24.750664> NDM-0: Last reset reason: sw requested
+<2019-02-26 06:18:24.751024> NDM-0: No previous fault info
+<2019-02-26 06:18:24.751284> NDM-0: [0:00:00.301] [OSM ] Osm continue
+<2019-02-26 06:18:24.751563> NDM-0: [0:00:00.307] [OSM ] osm_storage_get_string IsInstallPending retval 0
+<2019-02-26 06:18:25.006469> NDM-0: [0:00:00.571] [OSM ] signature
+<2019-02-26 06:18:25.346003> NDM-0: [0:00:00.887] [OSM ] manifest
+<2019-02-26 06:18:25.346290> NDM-0: [0:00:00.897] [OSM ] applicability
+<2019-02-26 06:18:25.346462> NDM-0: [0:00:00.902] [OSM ] region
+<2019-02-26 06:18:25.346630> NDM-0: [0:00:00.907] [OSM ] installations
+<2019-02-26 06:18:26.803999> NDM-0: [0:00:02.355] [OSM ] version
+<2019-02-26 06:18:27.407005> NDM-0: [0:00:02.950] [APPL] Install pending, resetting
+<2019-02-26 06:18:27.407273> NDM-0: 
+<2019-02-26 06:18:27.407711> NDM-0: Bootloader 1.0a41
+<2019-02-26 06:18:27.447323> NDM-M: Note: found pattern 'Bootloader' at index 0
+<2019-02-26 06:18:27.447561> NDM-M: Note: mode any expect completed with u'' remaining patterns in 3.49511790276s
+<2019-02-26 06:18:27.449186> NDM-M: Note: expecting any patterns from ['Updating STM'] using all lines and 2000 search window in 120s
+<2019-02-26 06:18:29.582271> NDM-0: Ia0[NO EOL]
+<2019-02-26 06:18:29.678027> NDM-0: v0
+<2019-02-26 06:18:29.699753> NDM-0: Model 1.3 Check for entropyprov
+<2019-02-26 06:18:29.773899> NDM-0: 
+<2019-02-26 06:18:29.774189> NDM-0: 
+<2019-02-26 06:18:29.774418> NDM-0: Welcome to Agate AUPD
+<2019-02-26 06:18:29.774689> NDM-0: 
+<2019-02-26 06:18:29.774954> NDM-0: 1.0a41 Aug 29 2018 09:12:58
+<2019-02-26 06:18:29.775146> NDM-0: 
+<2019-02-26 06:18:29.966095> NDM-0: [APPL] Filled BCs
+<2019-02-26 06:18:29.987282> NDM-0: Last reset reason: sw update
+<2019-02-26 06:18:29.987519> NDM-0: No previous fault info
+<2019-02-26 06:18:29.998154> NDM-0: Image Install Selected
+<2019-02-26 06:18:29.998284> NDM-0: 
+<2019-02-26 06:18:30.229908> NDM-0: Updating from location 0
+<2019-02-26 06:18:30.230338> NDM-0: Updating bootloader
+<2019-02-26 06:18:30.230616> NDM-0: Erasing destination
+<2019-02-26 06:18:30.654218> NDM-0: Transferring image
+<2019-02-26 06:18:30.897346> NDM-0: bytes written: 0x3fcc
+<2019-02-26 06:18:30.897534> NDM-0: Verifying image
+<2019-02-26 06:18:30.897678> NDM-0: bytes checksummed: 0x1000
+<2019-02-26 06:18:30.897818> NDM-0: bytes checksummed: 0x2000
+<2019-02-26 06:18:30.897969> NDM-0: bytes checksummed: 0x3000
+<2019-02-26 06:18:30.898109> NDM-0: bytes checksummed: 0x3fcc
+<2019-02-26 06:18:30.898239> NDM-0: Success
+<2019-02-26 06:18:30.898367> NDM-0: Updating app fw
+<2019-02-26 06:18:30.898564> NDM-0: Erasing destination
+<2019-02-26 06:18:52.074128> NDM-0: Transferring image
+<2019-02-26 06:18:52.952587> NDM-0: bytes written: 0x10000
+<2019-02-26 06:18:53.812814> NDM-0: bytes written: 0x20000
+<2019-02-26 06:18:54.695590> NDM-0: bytes written: 0x30000
+<2019-02-26 06:18:55.556369> NDM-0: bytes written: 0x40000
+<2019-02-26 06:18:56.436062> NDM-0: bytes written: 0x50000
+<2019-02-26 06:18:57.304782> NDM-0: bytes written: 0x60000
+<2019-02-26 06:18:58.129528> NDM-0: bytes written: 0x70000
+<2019-02-26 06:18:58.437559> NDM-0: bytes written: 0x76128
+<2019-02-26 06:18:58.437881> NDM-0: Verifying image
+<2019-02-26 06:18:58.459443> NDM-0: bytes checksummed: 0x10000
+<2019-02-26 06:18:58.481317> NDM-0: bytes checksummed: 0x20000
+<2019-02-26 06:18:58.513548> NDM-0: bytes checksummed: 0x30000
+<2019-02-26 06:18:58.535026> NDM-0: bytes checksummed: 0x40000
+<2019-02-26 06:18:58.567231> NDM-0: bytes checksummed: 0x50000
+<2019-02-26 06:18:58.599258> NDM-0: bytes checksummed: 0x60000
+<2019-02-26 06:18:58.610287> NDM-0: bytes checksummed: 0x70000
+<2019-02-26 06:18:58.631888> NDM-0: bytes checksummed: 0x76128
+<2019-02-26 06:18:58.632262> NDM-0: Success
+<2019-02-26 06:18:58.632677> NDM-0: Clearing update key
+<2019-02-26 06:18:58.898301> NDM-0: [APPL] MCU setup success. PP1V8_OT = 1800 mV.
+<2019-02-26 06:18:58.898639> NDM-0: Updating STM
+<2019-02-26 06:18:58.899070> NDM-0: Failed to decompress the header. Treating as uncompressed
+<2019-02-26 06:18:58.899210> NDM-M: Note: found pattern 'Updating STM' at index 0
+<2019-02-26 06:18:58.899520> NDM-M: Note: mode any expect completed with u'' remaining patterns in 31.4496240616s
+<2019-02-26 06:18:58.901370> NDM-M: Note: NDM triggered reboot. Booting up after upgrade
+<2019-02-26 06:18:58.901661> NDM-M: Note: expecting any patterns from ['Waiting for events!'] using all lines and 2000 search window in 60s
+<2019-02-26 06:18:59.070220> NDM-0: [STM ] Beginning ST sw update with firwmare size of 31056
+<2019-02-26 06:18:59.070587> NDM-0: Failed to decompress the header. Treating as uncompressed
+<2019-02-26 06:18:59.070941> NDM-0: [STM ] ST SW update start succeeded
+<2019-02-26 06:18:59.496482> NDM-0: [STM ] bytes written: 0x1000
+<2019-02-26 06:18:59.954552> NDM-0: [STM ] bytes written: 0x2000
+<2019-02-26 06:19:00.380743> NDM-0: [STM ] bytes written: 0x3000
+<2019-02-26 06:19:00.825618> NDM-0: [STM ] bytes written: 0x4000
+<2019-02-26 06:19:01.260985> NDM-0: [STM ] bytes written: 0x5000
+<2019-02-26 06:19:01.695101> NDM-0: [STM ] bytes written: 0x6000
+<2019-02-26 06:19:02.145656> NDM-0: [STM ] bytes written: 0x7000
+<2019-02-26 06:19:02.479143> NDM-0: [STM ] ST SW update succeeded
+<2019-02-26 06:19:02.479291> NDM-0: Success
+<2019-02-26 06:19:02.593823> NDM-0: 
+<2019-02-26 06:19:02.594007> NDM-0: Bootloader 1.0a41
+<2019-02-26 06:19:04.633963> NDM-0: AG1:e116e58a3db3ab47
+<2019-02-26 06:19:04.686755> NDM-0: SDV0
+<2019-02-26 06:19:04.782538> NDM-0: [0:00:00.000] [NLER] created queue 0x20002f00 at 0x20010e0c
+<2019-02-26 06:19:04.782893> NDM-0: [0:00:00.000] [NLER] created queue 0x20002f58 at 0x20012d04
+<2019-02-26 06:19:04.783401> NDM-0: [0:00:00.000] [NLER] setting application tag for task 0x2000358c ('USB task') to 0x20010948
+<2019-02-26 06:19:04.783779> NDM-0: [0:00:00.011] [NLER] setting application tag for task 0x200035d8 ('ctrl') to 0x20001740
+<2019-02-26 06:19:04.784032> NDM-0: [0:00:00.018] [APPL] Control Watchdog ID = 0
+<2019-02-26 06:19:04.784395> NDM-0: [0:00:00.024] [NLER] setting application tag for task 0x20003624 ('app') to 0x20001d84
+<2019-02-26 06:19:04.795245> NDM-0: [0:00:00.039] [APPL] Found 6 cached RAM consoles, most recent index 0
+<2019-02-26 06:19:04.795493> NDM-0: [0:00:00.045] [APPL] App Watchdog ID = 1
+<2019-02-26 06:19:04.827307> NDM-0: [0:00:00.059] [APPL] Welcome to Agate App
+<2019-02-26 06:19:04.827561> NDM-0: [0:00:00.062] [APPL] Reset cause: 04
+<2019-02-26 06:19:04.827758> NDM-0: Reset Event(s) : Software Reset
+<2019-02-26 06:19:04.828052> NDM-0: [0:00:00.070] [APPL] Serial #: 23AA01AC0318011Q
+<2019-02-26 06:19:04.828429> NDM-0: [0:00:00.078] [APPL] Battery voltage 3197, USB powered, proceeding with boot
+<2019-02-26 06:19:05.041469> NDM-0: [0:00:00.280] [APPL] Filled BCs
+<2019-02-26 06:19:05.041841> NDM-0: Last reset reason: sw update
+<2019-02-26 06:19:05.042145> NDM-0: No previous fault info
+<2019-02-26 06:19:05.042531> NDM-0: [0:00:00.296] [OSM ] Osm continue
+<2019-02-26 06:19:05.064163> NDM-0: [0:00:00.303] [OSM ] osm_storage_get_string IsInstallPending retval -2
+<2019-02-26 06:19:05.795244> NDM-0: [0:00:01.026] [APPL] Osm update success
+<2019-02-26 06:19:05.795688> NDM-0: [0:00:01.030] [APPL] UART Connected
+<2019-02-26 06:19:05.796046> NDM-0: [0:00:01.033] [WVPL] Initializing weave platform
+<2019-02-26 06:19:06.469626> NDM-0: [0:00:01.670] [WVPL] StartWeave Setting LocalNodeId: 18b4300001002e6c
+<2019-02-26 06:19:06.470132> NDM-0: [0:00:01.683] [WVPL] Init: configuration Settings = 00000009
+<2019-02-26 06:19:06.470449> NDM-0: [0:00:01.688] [NUTL] Init NM Daemon
+<2019-02-26 06:19:06.470787> NDM-0: [0:00:01.691] [NLER] created queue 0x20003218 at 0x20011fac
+<2019-02-26 06:19:06.471185> NDM-0: [0:00:01.696] [NETW] Watchdog ID = 2.
+<2019-02-26 06:19:06.471701> NDM-0: [0:00:01.700] [NETW] nlWirelessCalPlatformLoadFromSysEnv: Loading From Environment for 'nlwirelessregcal.6LoWPAN'
+<2019-02-26 06:19:06.472131> NDM-0: [0:00:01.714] [APPL] nlproduct_FEM_init_txpower_settings:No TxPower Lookup table in sysenv
+<2019-02-26 06:19:06.504345> NDM-0: [0:00:01.722] [NLER] setting application tag for task 0x20003708 ('NMGR') to 0x2000c978
+<2019-02-26 06:19:06.504685> NDM-0: [0:00:01.729] [NUTL] Init NM Client
+<2019-02-26 06:19:06.505147> NDM-0: [0:00:01.732] [NLER] created queue 0x200032c8 at 0x20011ae0
+<2019-02-26 06:19:06.538061> NDM-0: [0:00:01.749] [NETW] [6LOWPAN] NM starts Thci driver
+<2019-02-26 06:19:06.538596> NDM-0: [0:00:01.753] [NETW] [TECHBASE] "6LoWPAN" (0x66f6ae45) persistently enabled.
+<2019-02-26 06:19:06.539048> NDM-0: [0:00:01.760] [NETW] [6LOWPAN] Driver enabled
+<2019-02-26 06:19:06.539529> NDM-0: [0:00:01.764] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:19:06.540159> NDM-0: [0:00:01.773] [OTHR] [INFO]-MLE-----: PeriodicParentSearch: (Re)starting timer for check interval
+<2019-02-26 06:19:06.593518> NDM-0: [0:00:01.799] [NLER] created queue 0x200033d0 at 0x2001239c
+<2019-02-26 06:19:06.593931> NDM-0: [0:00:01.804] [THCI] Initialized OPENTHREAD/g664df0101; NONE; Aug 29 2018 09:12:43
+<2019-02-26 06:19:06.594400> NDM-0: [0:00:01.812] [NETW] [6LOWPAN] OT version: OPENTHREAD/g664df0101; NONE; Aug 29 2018 09:12:43
+<2019-02-26 06:19:06.594839> NDM-0: [0:00:01.820] [NETW] [6LOWPAN] Sets netif link up
+<2019-02-26 06:19:06.595398> NDM-0: [0:00:01.829] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0xe1211) [Ip6+ MLAddr NetData Ip6Mult+ PanId NetName ExtPanId] 
+<2019-02-26 06:19:06.595746> NDM-0: [0:00:01.840] [NETW] [6LOWPAN] IPv6 unicast-addresses updated:
+<2019-02-26 06:19:06.638833> NDM-0: [0:00:01.845] [NETW] [6LOWPAN]     FDDE:AD00:BEEF:0:2AF5:BBE8:F33E:B56C
+<2019-02-26 06:19:06.639552> NDM-0: [0:00:01.851] [NETW] [6LOWPAN]     FE80::4C65:DE09:A126:4D55
+<2019-02-26 06:19:06.640153> NDM-0: [0:00:01.857] [NETW] [6LOWPAN] IPv6 multicast-addresses updated:
+<2019-02-26 06:19:06.640617> NDM-0: [0:00:01.862] [NETW] [6LOWPAN]     FF33:40:FDDE:AD00:BEEF::1
+<2019-02-26 06:19:06.640933> NDM-0: [0:00:01.868] [NETW] [6LOWPAN]     FF32:40:FDDE:AD00:BEEF::1
+<2019-02-26 06:19:06.641255> NDM-0: [0:00:01.873] [NETW] [6LOWPAN]     FF02::1
+<2019-02-26 06:19:06.641701> NDM-0: [0:00:01.877] [NETW] [6LOWPAN]     FF03::1
+<2019-02-26 06:19:06.642153> NDM-0: [0:00:01.881] [NETW] [6LOWPAN]     FF03::FC
+<2019-02-26 06:19:06.663577> NDM-0: [0:00:01.885] [NETW] [6LOWPAN] NetworkData Len: 0 NetworkData:
+<2019-02-26 06:19:06.663937> NDM-0: [0:00:01.890] [NETW] [6LOWPAN] ML Addr changed
+<2019-02-26 06:19:06.664259> NDM-0: [0:00:01.894] [TELE] Initing Network Telemetry & Topology
+<2019-02-26 06:19:06.706800> NDM-0: [0:00:01.954] [WVPL] SoftwareVersion: '1.0a41'
+<2019-02-26 06:19:06.728497> NDM-0: [0:00:01.962] [WVPL] No FabricId.reporting 0
+<2019-02-26 06:19:06.782265> NDM-0: [0:00:02.014] [CTRL] Waiting for events!
+<2019-02-26 06:19:06.782664> NDM-0: [0:00:02.017] [DETS] Updating Detectors with new settings
+<2019-02-26 06:19:06.796977> NDM-M: Note: found pattern 'Waiting for events!' at index 0
+<2019-02-26 06:19:06.797217> NDM-M: Note: mode any expect completed with u'' remaining patterns in 7.89517402649s
+<2019-02-26 06:19:06.920909> NDM-0: [0:00:02.152] [PAIR] Init pair fail: -1355284483
+<2019-02-26 06:19:06.921128> NDM-0: [0:00:02.156] [ACTN] requesting focus for 'boot'
+<2019-02-26 06:19:06.952836> NDM-0: [0:00:02.174] [APPL] reset relay for 50 mSecs
+<2019-02-26 06:19:06.953029> NDM-0: [0:00:02.181] [ACTN] >> STARTING 'boot'
+<2019-02-26 06:19:06.973942> NDM-0: [0:00:02.201] [LEDM] Starting animation! Type: 4 Colors: (0, 7) PokeVal: 1
+<2019-02-26 06:19:06.974550> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 2s
+<2019-02-26 06:19:06.974720> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:19:07.036427> NDM-0: [0:00:02.220] [APPL] Starting profile timer
+<2019-02-26 06:19:07.036616> NDM-0: [0:00:02.225] [APPL] Waiting for events!
+<2019-02-26 06:19:07.036778> NDM-0: [0:00:02.234] [SWU ] SWU Timer Interval = 20174s
+<2019-02-26 06:19:07.036945> NDM-0: [0:00:02.240] [LEDM] Poking animation with 0x60
+<2019-02-26 06:19:07.037130> NDM-0: [0:00:02.246] [APPL] Casting vote for data poll 2 by voter 0
+<2019-02-26 06:19:07.037284> NDM-0: [0:00:02.253] [APPL] Setting datapoll config 2
+<2019-02-26 06:19:07.037436> NDM-0: [0:00:02.259] [NETW] [6LOWPAN] Technology Changes 12688
+<2019-02-26 06:19:07.037599> NDM-0: [0:00:02.265] [NETW] [TECHCTLR] Store: "6LoWPAN" not dirty; not stored
+<2019-02-26 06:19:07.037738> NDM-0: [0:00:02.274] [APPL] Profile timer expired
+<2019-02-26 06:19:07.099838> NDM-0: [0:00:02.279] [APPL] Total uptime 2279, interval duration 2279
+<2019-02-26 06:19:07.100032> NDM-0: [0:00:02.287] [APPL] task 'app': usage during interval 2005, max unused stack bytes 2168
+<2019-02-26 06:19:07.100232> NDM-0: [0:00:02.297] [APPL] task 'IDL': usage during interval 60, max unused stack bytes 328
+<2019-02-26 06:19:07.100421> NDM-0: [0:00:02.307] [APPL] task 'tcp': usage during interval 0, max unused stack bytes 860
+<2019-02-26 06:19:07.100612> NDM-0: [0:00:02.317] [APPL] task 'ctr': usage during interval 21, max unused stack bytes 1448
+<2019-02-26 06:19:07.100817> NDM-0: [0:00:02.328] [APPL] task 'NMG': usage during interval 172, max unused stack bytes 2240
+<2019-02-26 06:19:07.152687> NDM-0: [0:00:02.338] [APPL] task 'USB': usage during interval 28, max unused stack bytes 768
+<2019-02-26 06:19:07.152943> NDM-0: [0:00:02.348] [APPL] Found queue at 0x20010e0c, size 18 watermark 1
+<2019-02-26 06:19:07.153260> NDM-0: [0:00:02.356] [APPL] Found queue at 0x20012d04, size 38 watermark 3
+<2019-02-26 06:19:07.153552> NDM-0: [0:00:02.365] [APPL] Found queue at 0x200121ec, size 6 watermark 0
+<2019-02-26 06:19:07.153815> NDM-0: [0:00:02.373] [APPL] Found queue at 0x20011fac, size 26 watermark 1
+<2019-02-26 06:19:07.154111> NDM-0: [0:00:02.381] [APPL] Profile Item LED: 78
+<2019-02-26 06:19:07.154442> NDM-0: [0:00:02.386] [APPL] Profile Item I2C: 11
+<2019-02-26 06:19:07.154772> NDM-0: [0:00:02.391] [APPL] Profile Item ADC: 1
+<2019-02-26 06:19:07.155061> NDM-0: [0:00:02.395] [APPL] Profile Item SPI: 1809
+<2019-02-26 06:19:07.217608> NDM-0: [0:00:02.401] [APPL] Profile Item CONSOLE: 2279
+<2019-02-26 06:19:07.217826> NDM-0: [0:00:02.406] [APPL] Profile Item SLEEP_IDLE: 0
+<2019-02-26 06:19:07.218032> NDM-0: [0:00:02.412] [APPL] Profile Item SLEEP_DEEP: 56
+<2019-02-26 06:19:07.218238> NDM-0: [0:00:02.418] [APPL] Profile Item SLEEP_BLOCKED: 6
+<2019-02-26 06:19:07.218481> NDM-0: [0:00:02.424] [APPL] Profile Item RADIO_EN: 0
+<2019-02-26 06:19:07.218689> NDM-0: [0:00:02.430] [APPL] Profile Item 5V0_BOOST_EN: 101
+<2019-02-26 06:19:07.218855> NDM-0: [0:00:02.436] [APPL] Profile Item SENSOR_EN: 0
+<2019-02-26 06:19:07.219066> NDM-0: [0:00:02.442] [APPL] Profile Item READ_ADC_POWER: 4
+<2019-02-26 06:19:07.219284> NDM-0: [0:00:02.448] [APPL] Profile Item READ_NTC_POWER: 0
+<2019-02-26 06:19:07.219465> NDM-0: [0:00:02.454] [APPL] Profile Item FEM: 0
+<2019-02-26 06:19:07.240713> NDM-0: [0:00:02.459] [APPL] Profile Item PP1V8_OT_EN: 0
+<2019-02-26 06:19:07.241134> NDM-0: [0:00:02.465] [APPL] Profile Item RELAY_SET: 0
+<2019-02-26 06:19:07.241525> NDM-0: [0:00:02.471] [APPL] Profile Item RELAY_RESET: 51
+<2019-02-26 06:19:08.975526> NDM-M: Note: expect timed out after waiting 2.00040984154s for u'ACK' remaining patterns
+<2019-02-26 06:19:08.975980> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 2s
+<2019-02-26 06:19:08.976324> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:19:09.036883> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:19:09.040809> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:19:09.041016> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0638530254364s
+<2019-02-26 06:19:09.044023> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:19:09.044573> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:19:09.101300> NDM-0: ACK
+<2019-02-26 06:19:09.109351> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:19:09.109572> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0640261173248s
+<2019-02-26 06:19:09.109964> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:19:09.110338> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:19:09.177422> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:19:09.225313> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:19:09.225560> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.114209890366s
+<2019-02-26 06:19:09.225930> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:19:09.226223> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:19:09.295737> NDM-0: ACK
+<2019-02-26 06:19:09.340908> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:19:09.341161> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.114051818848s
+<2019-02-26 06:19:09.360938> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:19:09.361399> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:19:09.423382> NDM-0: ACK
+<2019-02-26 06:19:09.425530> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:19:09.425767> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0639119148254s
+<2019-02-26 06:19:09.426042> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:19:09.426360> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:19:09.498793> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:19:09.541212> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:19:09.541442> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.114109039307s
+<2019-02-26 06:19:09.541807> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:19:09.542089> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:19:09.616040> NDM-0: ACK
+<2019-02-26 06:19:09.656784> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:19:09.656967> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.114050865173s
+<2019-02-26 06:19:12.011767> NDM-0: [0:00:07.219] [APPL] Temp 2493
+<2019-02-26 06:19:12.022661> NDM-0: [0:00:07.233] [APPL] NTCs 2606 2600 2570

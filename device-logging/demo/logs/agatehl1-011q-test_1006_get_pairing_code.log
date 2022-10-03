@@ -1,0 +1,44 @@
+<2019-02-26 06:20:01.321320> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 2s
+<2019-02-26 06:20:01.321745> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:20:01.379542> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:20:01.385974> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:01.386182> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0639019012451s
+<2019-02-26 06:20:01.389023> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:01.389559> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:20:01.465762> NDM-0: [0:00:41.791] [NETW] [6LOWPAN] Scan complete (NULL Scan result Received) 0 0
+<2019-02-26 06:20:01.466193> NDM-0: [0:00:41.797] [THCI] Interface Down
+<2019-02-26 06:20:01.466596> NDM-0: [0:00:41.800] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:20:01.466942> NDM-0: ACK
+<2019-02-26 06:20:01.504422> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:01.504608> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.114372968674s
+<2019-02-26 06:20:01.504934> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:20:01.505291> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:20:01.562283> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:20:01.569861> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:20:01.569995> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.0638589859009s
+<2019-02-26 06:20:01.570195> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:01.570381> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:20:01.625964> NDM-0: ACK
+<2019-02-26 06:20:01.634543> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:01.634652> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0636610984802s
+<2019-02-26 06:20:01.635476> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:01.635845> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:20:01.689473> NDM-0: ACK
+<2019-02-26 06:20:01.699929> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:01.700083> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0637109279633s
+<2019-02-26 06:20:01.700303> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:20:01.700472> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:20:01.773885> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:20:01.814441> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:20:01.814562> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.113770961761s
+<2019-02-26 06:20:01.814744> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:01.814901> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:20:01.868439> NDM-0: ACK
+<2019-02-26 06:20:01.878894> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:01.879084> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0637528896332s
+<2019-02-26 06:20:02.088270> NDM-0: [0:00:42.421] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:20:03.057886> NDM-0: [0:00:43.382] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:20:03.569114> NDM-0: [0:00:43.890] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:20:04.528495> NDM-0: [0:00:44.819] [OTHR] [INFO]-MAC-----: Received IPv6 UDP msg, len:83, chksum:e017, from:fe30d8ed7933e8c9, sec:yes, prio:low, rss:-84.0
+<2019-02-26 06:20:04.528774> NDM-0: [0:00:44.831] [OTHR] [INFO]-MAC-----: 	src:[fe80:0:0:0:fc30:d8ed:7933:e8c9]:19788
+<2019-02-26 06:20:04.528979> NDM-0: [0:00:44.838] [OTHR] [INFO]-MAC-----: 	dst:[ff02:0:0:0:0:0:0:1]:19788

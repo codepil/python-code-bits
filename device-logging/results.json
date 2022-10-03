@@ -1,0 +1,171 @@
+{
+  "448cd89b234d9110": {
+    "outputs": [
+      "Testbed-One-Pinna1-01/05-01-2019_08-35-12-643/pinna-00vc-20190501-083517-events.txt",
+      "ndm_version.txt",
+      "Testbed-One-Pinna1-01/05-01-2019_08-35-12-643/ndm.log",
+      "Testbed-One-Pinna1-01/05-01-2019_08-35-12-643/pinna-00vc-20190501-083517.txt",
+      "coverage.regression_test_suite.regression_test_suite.pinna",
+      "Testbed-One-Pinna1-01/05-01-2019_08-35-12-643/pinna-00vc-test_1004_get_firmware_version-events.txt",
+      "Testbed-One-Pinna1-01/05-01-2019_08-35-12-643/test_summary.yaml",
+      "Testbed-One-Pinna1-01/05-01-2019_08-35-12-643/test_log.DEBUG",
+      "Testbed-One-Pinna1-01/05-01-2019_08-35-12-643/test_log.INFO",
+      "Testbed-One-Pinna1-01/05-01-2019_08-35-12-643/pinna-00vc-test_1004_get_firmware_version.log"
+    ],
+    "results": {
+      "bot_dimensions": [
+        {
+          "key": "cores",
+          "value": [
+            "12"
+          ]
+        },
+        {
+          "key": "cpu",
+          "value": [
+            "x86",
+            "x86-64",
+            "x86-64-E5-1650_v2"
+          ]
+        },
+        {
+          "key": "cpu_governor",
+          "value": [
+            "powersave"
+          ]
+        },
+        {
+          "key": "gce",
+          "value": [
+            "0"
+          ]
+        },
+        {
+          "key": "gpu",
+          "value": [
+            "10de",
+            "10de:0ffa"
+          ]
+        },
+        {
+          "key": "hostname",
+          "value": [
+            "bedrock-prod-nep-regsrvr-003"
+          ]
+        },
+        {
+          "key": "id",
+          "value": [
+            "bedrock-prod-nep-regsrvr-003-Testbed-One-Pinna1-01"
+          ]
+        },
+        {
+          "key": "inside_docker",
+          "value": [
+            "0"
+          ]
+        },
+        {
+          "key": "ip_addr",
+          "value": [
+            "100.107.115.197 172.16.243.1 2401:fa00:480:ea:a248"
+          ]
+        },
+        {
+          "key": "kvm",
+          "value": [
+            "1"
+          ]
+        },
+        {
+          "key": "label",
+          "value": [
+            "nep_regression_server"
+          ]
+        },
+        {
+          "key": "locale",
+          "value": [
+            "en_US.UTF-8"
+          ]
+        },
+        {
+          "key": "machine_type",
+          "value": [
+            "n1-standard-8"
+          ]
+        },
+        {
+          "key": "os",
+          "value": [
+            "Linux",
+            "Ubuntu",
+            "Ubuntu-18.04"
+          ]
+        },
+        {
+          "key": "pool",
+          "value": [
+            "bedrock-prod"
+          ]
+        },
+        {
+          "key": "python",
+          "value": [
+            "2.7.15rc1"
+          ]
+        },
+        {
+          "key": "server_version",
+          "value": [
+            "4277-e1590cf"
+          ]
+        },
+        {
+          "key": "testbed_type",
+          "value": [
+            "One-Pinna1"
+          ]
+        }
+      ],
+      "bot_id": "bedrock-prod-nep-regsrvr-003-Testbed-One-Pinna1-01",
+      "bot_version": "cc77515c8cd0b4fa4a755d646e81aaebe388ae3bbfba6373bf3ca4d6d17e70a2",
+      "completed_ts": "2019-05-01T15:35:20.267514",
+      "costs_usd": [
+        0.012525260557625352
+      ],
+      "created_ts": "2019-05-01T15:33:01.853263",
+      "duration": 19.802753925323486,
+      "modified_ts": "2019-05-01T15:35:20.267514",
+      "name": "regression_test_suite.py",
+      "outputs_ref": {
+        "isolated": "652d42a9ca17c835ba626d710ef3691a90e1cc3f",
+        "isolatedserver": "https://cast-isolate.appspot.com",
+        "namespace": "default-gzip"
+      },
+      "run_id": "448cd89b234d9111",
+      "server_versions": [
+        "4277-e1590cf"
+      ],
+      "started_ts": "2019-05-01T15:33:40.050302",
+      "state": "COMPLETED",
+      "tags": [
+        "label:nep_regression_server",
+        "platform:One-Pinna1",
+        "platform_version:test_version1",
+        "pool:bedrock-prod",
+        "priority:110",
+        "service_account:none",
+        "sponge_labels:test-bedrock,ndm_Pinna1_CommonTestSuite.test_1004_get_firmware_version_device-tests_0",
+        "swarming.pool.template:none",
+        "swarming.pool.version:3b9d64b633ec334f21fc45677404442277a6a0b7",
+        "test_file:regression_test_suite.py",
+        "test_folder:test-engprod/test_device_manager/tests/functional_test_suites",
+        "testbed_type:One-Pinna1",
+        "user:None"
+      ],
+      "task_id": "448cd89b234d9110",
+      "try_number": "1"
+    }
+  }
+}

@@ -1,0 +1,894 @@
+---
+Requested Tests:
+- test_2325_dropbox_recv_file_from
+- test_2326_dropbox_recv_file_duplicate
+- test_2327_dropbox_src_overlaps_dropbox_mount_point
+- test_2328_dropbox_dest_overlaps_dropbox_mount_point
+- test_2329_dropbox_recv_larger_binary_file
+- test_2330_dropbox_recv_nonexistent_src
+- test_2332_dropbox_recv_file_renamed
+Type: TestNameList
+---
+Begin Time: 1552558115138
+Details: null
+End Time: 1552558126840
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxRecvFile
+Test Name: test_2325_dropbox_recv_file_from
+Type: Record
+UID: null
+---
+Begin Time: 1552558126843
+Details: null
+End Time: 1552558143848
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxRecvFile
+Test Name: test_2326_dropbox_recv_file_duplicate
+Type: Record
+UID: null
+---
+Begin Time: 1552558143853
+Details: null
+End Time: 1552558150106
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxRecvFile
+Test Name: test_2327_dropbox_src_overlaps_dropbox_mount_point
+Type: Record
+UID: null
+---
+Begin Time: 1552558150113
+Details: null
+End Time: 1552558156411
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxRecvFile
+Test Name: test_2328_dropbox_dest_overlaps_dropbox_mount_point
+Type: Record
+UID: null
+---
+Begin Time: 1552558156417
+Details: null
+End Time: 1552558172031
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxRecvFile
+Test Name: test_2329_dropbox_recv_larger_binary_file
+Type: Record
+UID: null
+---
+Begin Time: 1552558172037
+Details: null
+End Time: 1552558178451
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxRecvFile
+Test Name: test_2330_dropbox_recv_nonexistent_src
+Type: Record
+UID: null
+---
+Begin Time: 1552558178455
+Details: null
+End Time: 1552558190084
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxRecvFile
+Test Name: test_2332_dropbox_recv_file_renamed
+Type: Record
+UID: null
+---
+Requested Tests:
+- test_2207_get_build_type
+- test_2352_get_wifi_rendezvous_essid
+- test_2910_flintstone_attempt_to_install_agent_when_agent_already_installed
+- test_2914_flintstone_start_uinput_tool
+- test_2915_flintstone_start_uinput_tool_already
+- test_2916_flintstone_button_press_with_invalid_key
+- test_2927_check_get_lowpan_info
+- test_2928_check_get_wifi_info
+Type: TestNameList
+---
+Begin Time: 1552558191176
+Details: null
+End Time: 1552558197950
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: FlintstoneFunctionalTests
+Test Name: test_2207_get_build_type
+Type: Record
+UID: null
+---
+Begin Time: 1552558197957
+Details: null
+End Time: 1552558204202
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: FlintstoneFunctionalTests
+Test Name: test_2352_get_wifi_rendezvous_essid
+Type: Record
+UID: null
+---
+Begin Time: 1552558204208
+Details: null
+End Time: 1552558210727
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: FlintstoneFunctionalTests
+Test Name: test_2910_flintstone_attempt_to_install_agent_when_agent_already_installed
+Type: Record
+UID: null
+---
+Begin Time: 1552558210732
+Details: null
+End Time: 1552558342188
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: FlintstoneFunctionalTests
+Test Name: test_2914_flintstone_start_uinput_tool
+Type: Record
+UID: null
+---
+Begin Time: 1552558342193
+Details: null
+End Time: 1552558348729
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: FlintstoneFunctionalTests
+Test Name: test_2915_flintstone_start_uinput_tool_already
+Type: Record
+UID: null
+---
+Begin Time: 1552558348736
+Details: null
+End Time: 1552558354980
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: FlintstoneFunctionalTests
+Test Name: test_2916_flintstone_button_press_with_invalid_key
+Type: Record
+UID: null
+---
+Begin Time: 1552558354985
+Details: null
+End Time: 1552558361468
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: FlintstoneFunctionalTests
+Test Name: test_2927_check_get_lowpan_info
+Type: Record
+UID: null
+---
+Begin Time: 1552558361474
+Details: null
+End Time: 1552558367909
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: FlintstoneFunctionalTests
+Test Name: test_2928_check_get_wifi_info
+Type: Record
+UID: null
+---
+Requested Tests:
+- test_1_check_configured_baudrate
+- test_2_check_baudrate_switching
+- test_3_install_uninstall_autolog_init
+- test_4_instantiation_with_baudrate_prop
+- test_5_forced_upgrade_already_in_dfu
+Type: TestNameList
+---
+Begin Time: 1552558369139
+Details: null
+End Time: 1552558375539
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: FlintstoneBaudrateTests
+Test Name: test_1_check_configured_baudrate
+Type: Record
+UID: null
+---
+Begin Time: 1552558375545
+Details: null
+End Time: 1552558384763
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: FlintstoneBaudrateTests
+Test Name: test_2_check_baudrate_switching
+Type: Record
+UID: null
+---
+Begin Time: 1552558384770
+Details: null
+End Time: 1552558394613
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: FlintstoneBaudrateTests
+Test Name: test_3_install_uninstall_autolog_init
+Type: Record
+UID: null
+---
+Begin Time: 1552558394621
+Details: null
+End Time: 1552558459868
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: FlintstoneBaudrateTests
+Test Name: test_4_instantiation_with_baudrate_prop
+Type: Record
+UID: null
+---
+Begin Time: 1552558459873
+Details: "Error happened during upgrade: Traceback (most recent call last):\n  File\
+    \ \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/functional_tests/flintstone_baudrate_test_suite.py\"\
+    , line 111, in test_5_forced_upgrade_already_in_dfu\n    self.device.upgrade(forced_upgrade=True)\n\
+    \  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/base_classes/sapphire_device.py\"\
+    , line 1720, in upgrade\n    build_info=locals())\n  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/base_classes/test_device_base.py\"\
+    , line 744, in _upgrade_wrapper\n    transfer_and_recover_func(local_file_path,\
+    \ build_info)\n  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/base_classes/sapphire_device.py\"\
+    , line 1752, in _transfer_build_and_recover\n    self.install_agent()\n  File\
+    \ \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/base_classes/sapphire_device.py\"\
+    , line 1543, in install_agent\n    install_agent(self.console_port, self.target_baudrate)\n\
+    \  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/base_classes/sapphire_device.py\"\
+    , line 308, in install_agent\n    shell(console_port, COMMANDS[\"REMOUNT_IN_READ_ONLY\"\
+    ])\n  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/base_classes/sapphire_device.py\"\
+    , line 1126, in shell\n    timeout))\ntestDeviceError: Device flintstone-06l3\
+    \ shell failed. FTDI Error Timed out waiting 60.0s for command prompt. \n"
+End Time: 1552558794082
+Extra Errors: {}
+Extras: null
+Result: FAIL
+Stacktrace: "Traceback (most recent call last):\n  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/mobly/base_test.py\"\
+    , line 597, in exec_one_test\n    test_method()\n  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/functional_tests/flintstone_baudrate_test_suite.py\"\
+    , line 116, in test_5_forced_upgrade_already_in_dfu\n    traceback.format_exc()))\n\
+    \  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/mobly/asserts.py\"\
+    , line 239, in fail\n    raise signals.TestFailure(msg, extras)\nTestFailure:\
+    \ Details=Error happened during upgrade: Traceback (most recent call last):\n\
+    \  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/functional_tests/flintstone_baudrate_test_suite.py\"\
+    , line 111, in test_5_forced_upgrade_already_in_dfu\n    self.device.upgrade(forced_upgrade=True)\n\
+    \  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/base_classes/sapphire_device.py\"\
+    , line 1720, in upgrade\n    build_info=locals())\n  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/base_classes/test_device_base.py\"\
+    , line 744, in _upgrade_wrapper\n    transfer_and_recover_func(local_file_path,\
+    \ build_info)\n  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/base_classes/sapphire_device.py\"\
+    , line 1752, in _transfer_build_and_recover\n    self.install_agent()\n  File\
+    \ \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/base_classes/sapphire_device.py\"\
+    , line 1543, in install_agent\n    install_agent(self.console_port, self.target_baudrate)\n\
+    \  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/base_classes/sapphire_device.py\"\
+    , line 308, in install_agent\n    shell(console_port, COMMANDS[\"REMOUNT_IN_READ_ONLY\"\
+    ])\n  File \"/home/mobileharness/bots/Testbed-One-Flintstone1-01-bot/w/ir/swarming_task/test_dir/ve/local/lib/python2.7/site-packages/test_device/base_classes/sapphire_device.py\"\
+    , line 1126, in shell\n    timeout))\ntestDeviceError: Device flintstone-06l3\
+    \ shell failed. Timed out waiting 60.0s for command prompt. \n, Extras=None\n"
+Test Class: FlintstoneBaudrateTests
+Test Name: test_5_forced_upgrade_already_in_dfu
+Type: Record
+UID: null
+---
+Requested Tests:
+- test_1010_reset_button_reboot_from_joker
+- test_1116_shell_cmd_done_test
+- test_2000_upgrade_non_default_method
+Type: TestNameList
+---
+Begin Time: 1552558795316
+Details: null
+End Time: 1552558859486
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireCommonTestSuite
+Test Name: test_1010_reset_button_reboot_from_joker
+Type: Record
+UID: null
+---
+Begin Time: 1552558859492
+Details: null
+End Time: 1552558881569
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireCommonTestSuite
+Test Name: test_1116_shell_cmd_done_test
+Type: Record
+UID: null
+---
+Begin Time: 1552558881574
+Details: null
+End Time: 1552559594983
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireCommonTestSuite
+Test Name: test_2000_upgrade_non_default_method
+Type: Record
+UID: null
+---
+Requested Tests:
+- test_0000_upgrade_to_latest_verified_forced
+- test_0001_factory_reset
+- test_1000_close_device
+- test_1001_logging
+- test_1002_get_serial_number
+- test_1003_get_ftdi_serial_number
+- test_1004_get_firmware_version
+- test_1005_get_build_date
+- test_1006_get_pairing_code
+- test_1007_get_qr_code
+- test_1008_reboot_and_expect_known_logline
+- test_1011_send_and_expect
+- test_1012_shell
+- test_1013_get_pairing_state
+- test_1016_do_and_expect_some_func_is_called
+- test_1115_test_expect_with_bogus_logline
+- test_1116_get_event_related_methods_raise_error_for_bogus_event_label
+- test_1117_get_event_related_methods_return_appropriate_results
+- test_1500_start_new_log
+- test_1510_rotate_log
+- test_2002_get_prop_can_execute
+- test_2003_get_info_can_execute
+- test_2005_is_device_works
+- test_3104_get_wifi_channel
+- test_3105_get_wifi_ssid
+- test_3106_get_wifi_mac_address
+- test_3107_get_thread_channel
+- test_3108_get_thread_network
+- test_3109_get_wpan_random_mac_address
+- test_4400_wpan_mac_address
+Type: TestNameList
+---
+Begin Time: 1552559598978
+Details: null
+End Time: 1552559876311
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_0000_upgrade_to_latest_verified_forced
+Type: Record
+UID: null
+---
+Begin Time: 1552559876316
+Details: null
+End Time: 1552560009181
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_0001_factory_reset
+Type: Record
+UID: null
+---
+Begin Time: 1552560009186
+Details: null
+End Time: 1552560015936
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1000_close_device
+Type: Record
+UID: null
+---
+Begin Time: 1552560015942
+Details: null
+End Time: 1552560022118
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1001_logging
+Type: Record
+UID: null
+---
+Begin Time: 1552560022123
+Details: null
+End Time: 1552560028279
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1002_get_serial_number
+Type: Record
+UID: null
+---
+Begin Time: 1552560028285
+Details: null
+End Time: 1552560034625
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1003_get_ftdi_serial_number
+Type: Record
+UID: null
+---
+Begin Time: 1552560034631
+Details: null
+End Time: 1552560041338
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1004_get_firmware_version
+Type: Record
+UID: null
+---
+Begin Time: 1552560041344
+Details: null
+End Time: 1552560047624
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1005_get_build_date
+Type: Record
+UID: null
+---
+Begin Time: 1552560047629
+Details: null
+End Time: 1552560053867
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1006_get_pairing_code
+Type: Record
+UID: null
+---
+Begin Time: 1552560053873
+Details: null
+End Time: 1552560060147
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1007_get_qr_code
+Type: Record
+UID: null
+---
+Begin Time: 1552560060151
+Details: null
+End Time: 1552560126694
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1008_reboot_and_expect_known_logline
+Type: Record
+UID: null
+---
+Begin Time: 1552560126700
+Details: null
+End Time: 1552560133550
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1011_send_and_expect
+Type: Record
+UID: null
+---
+Begin Time: 1552560133555
+Details: null
+End Time: 1552560140228
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1012_shell
+Type: Record
+UID: null
+---
+Begin Time: 1552560140232
+Details: null
+End Time: 1552560146576
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1013_get_pairing_state
+Type: Record
+UID: null
+---
+Begin Time: 1552560146583
+Details: null
+End Time: 1552560153021
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1016_do_and_expect_some_func_is_called
+Type: Record
+UID: null
+---
+Begin Time: 1552560153027
+Details: null
+End Time: 1552560161110
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1115_test_expect_with_bogus_logline
+Type: Record
+UID: null
+---
+Begin Time: 1552560161114
+Details: null
+End Time: 1552560167411
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1116_get_event_related_methods_raise_error_for_bogus_event_label
+Type: Record
+UID: null
+---
+Begin Time: 1552560167417
+Details: null
+End Time: 1552560173729
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1117_get_event_related_methods_return_appropriate_results
+Type: Record
+UID: null
+---
+Begin Time: 1552560173734
+Details: null
+End Time: 1552560179925
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1500_start_new_log
+Type: Record
+UID: null
+---
+Begin Time: 1552560179930
+Details: null
+End Time: 1552560186064
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_1510_rotate_log
+Type: Record
+UID: null
+---
+Begin Time: 1552560186069
+Details: null
+End Time: 1552560195395
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_2002_get_prop_can_execute
+Type: Record
+UID: null
+---
+Begin Time: 1552560195401
+Details: null
+End Time: 1552560202860
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_2003_get_info_can_execute
+Type: Record
+UID: null
+---
+Begin Time: 1552560202867
+Details: null
+End Time: 1552560209186
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_2005_is_device_works
+Type: Record
+UID: null
+---
+Begin Time: 1552560209191
+Details: null
+End Time: 1552560215802
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_3104_get_wifi_channel
+Type: Record
+UID: null
+---
+Begin Time: 1552560215807
+Details: null
+End Time: 1552560221954
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_3105_get_wifi_ssid
+Type: Record
+UID: null
+---
+Begin Time: 1552560221959
+Details: null
+End Time: 1552560228260
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_3106_get_wifi_mac_address
+Type: Record
+UID: null
+---
+Begin Time: 1552560228266
+Details: null
+End Time: 1552560234707
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_3107_get_thread_channel
+Type: Record
+UID: null
+---
+Begin Time: 1552560234712
+Details: null
+End Time: 1552560241105
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_3108_get_thread_network
+Type: Record
+UID: null
+---
+Begin Time: 1552560241109
+Details: null
+End Time: 1552560247627
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_3109_get_wpan_random_mac_address
+Type: Record
+UID: null
+---
+Begin Time: 1552560247632
+Details: null
+End Time: 1552560253746
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: CommonTestSuite
+Test Name: test_4400_wpan_mac_address
+Type: Record
+UID: null
+---
+Requested Tests:
+- test_01_get_wpan_properties
+- test_02_wpan_shell
+Type: TestNameList
+---
+Begin Time: 1552560254949
+Details: null
+End Time: 1552560266697
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: WPANTestSuite
+Test Name: test_01_get_wpan_properties
+Type: Record
+UID: null
+---
+Begin Time: 1552560266704
+Details: null
+End Time: 1552560273172
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: WPANTestSuite
+Test Name: test_02_wpan_shell
+Type: Record
+UID: null
+---
+Requested Tests:
+- test_2225_dropbox_send_file_to
+- test_2226_dropbox_send_file_duplicate
+- test_2227_dropbox_dest_overlaps_dropbox_mount_point
+- test_2228_dropbox_send_binary_file
+- test_2229_dropbox_send_larger_file
+- test_2230_dropbox_send_too_large_file
+- test_2231_dropbox_send_nonexistent_source
+- test_2233_dropbox_send_file_renamed
+- test_2235_dropbox_src_overlaps_host_mount_point
+Type: TestNameList
+---
+Begin Time: 1552560274415
+Details: null
+End Time: 1552560286662
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxSendFile
+Test Name: test_2225_dropbox_send_file_to
+Type: Record
+UID: null
+---
+Begin Time: 1552560286666
+Details: null
+End Time: 1552560306945
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxSendFile
+Test Name: test_2226_dropbox_send_file_duplicate
+Type: Record
+UID: null
+---
+Begin Time: 1552560306949
+Details: null
+End Time: 1552560313267
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxSendFile
+Test Name: test_2227_dropbox_dest_overlaps_dropbox_mount_point
+Type: Record
+UID: null
+---
+Begin Time: 1552560313270
+Details: null
+End Time: 1552560325528
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxSendFile
+Test Name: test_2228_dropbox_send_binary_file
+Type: Record
+UID: null
+---
+Begin Time: 1552560325532
+Details: null
+End Time: 1552560337878
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxSendFile
+Test Name: test_2229_dropbox_send_larger_file
+Type: Record
+UID: null
+---
+Begin Time: 1552560337884
+Details: null
+End Time: 1552560368790
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxSendFile
+Test Name: test_2230_dropbox_send_too_large_file
+Type: Record
+UID: null
+---
+Begin Time: 1552560368796
+Details: null
+End Time: 1552560375346
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxSendFile
+Test Name: test_2231_dropbox_send_nonexistent_source
+Type: Record
+UID: null
+---
+Begin Time: 1552560375353
+Details: null
+End Time: 1552560388252
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxSendFile
+Test Name: test_2233_dropbox_send_file_renamed
+Type: Record
+UID: null
+---
+Begin Time: 1552560388258
+Details: null
+End Time: 1552560394752
+Extra Errors: {}
+Extras: null
+Result: PASS
+Stacktrace: null
+Test Class: SapphireDropboxSendFile
+Test Name: test_2235_dropbox_src_overlaps_host_mount_point
+Type: Record
+UID: null
+---
+Error: 0
+Executed: 64
+Failed: 1
+Passed: 63
+Requested: 64
+Skipped: 0
+Type: Summary

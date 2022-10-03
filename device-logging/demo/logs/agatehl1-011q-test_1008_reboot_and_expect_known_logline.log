@@ -1,0 +1,184 @@
+<2019-02-26 06:20:12.702831> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 2s
+<2019-02-26 06:20:12.703303> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:20:12.772922> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:20:12.817717> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:12.817959> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.114070892334s
+<2019-02-26 06:20:12.821255> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:12.821891> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:20:12.890931> NDM-0: ACK
+<2019-02-26 06:20:12.936302> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:12.936494> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.113984823227s
+<2019-02-26 06:20:12.936769> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:20:12.937050> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:20:12.998022> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:20:13.001549> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:20:13.001780> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.0639359951019s
+<2019-02-26 06:20:13.002215> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:13.002509> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:20:13.062788> NDM-0: ACK
+<2019-02-26 06:20:13.067181> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:13.067337> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0638430118561s
+<2019-02-26 06:20:13.068246> NDM-M: Note: NDM triggered reboot
+<2019-02-26 06:20:13.069466> NDM-M: Note: expecting any patterns from ['Waiting for events!'] using response lines and 2000 search window in 15s
+<2019-02-26 06:20:13.069953> NDM-M: Note: wrote command '\nrebt\n' to port 0
+<2019-02-26 06:20:13.127322> NDM-0: ACK
+<2019-02-26 06:20:13.127600> NDM-0: 
+<2019-02-26 06:20:13.127913> NDM-0: Bootloader 1.0a41
+<2019-02-26 06:20:15.188477> NDM-0: AG1:e116e58a3db3ab47
+<2019-02-26 06:20:15.241395> NDM-0: SDV0
+<2019-02-26 06:20:15.325897> NDM-0: [0:00:00.000] [NLER] created queue 0x20002f00 at 0x20010e0c
+<2019-02-26 06:20:15.326401> NDM-0: [0:00:00.000] [NLER] created queue 0x20002f58 at 0x20012d04
+<2019-02-26 06:20:15.326798> NDM-0: [0:00:00.000] [NLER] setting application tag for task 0x2000358c ('USB task') to 0x20010948
+<2019-02-26 06:20:15.327157> NDM-0: [0:00:00.011] [NLER] setting application tag for task 0x200035d8 ('ctrl') to 0x20001740
+<2019-02-26 06:20:15.327413> NDM-0: [0:00:00.018] [APPL] Control Watchdog ID = 0
+<2019-02-26 06:20:15.327789> NDM-0: [0:00:00.024] [NLER] setting application tag for task 0x20003624 ('app') to 0x20001d84
+<2019-02-26 06:20:15.328113> NDM-0: [0:00:00.039] [APPL] Found 6 cached RAM consoles, most recent index 0
+<2019-02-26 06:20:15.381406> NDM-0: [0:00:00.045] [APPL] App Watchdog ID = 1
+<2019-02-26 06:20:15.381650> NDM-0: [0:00:00.058] [APPL] Welcome to Agate App
+<2019-02-26 06:20:15.381882> NDM-0: [0:00:00.061] [APPL] Reset cause: 04
+<2019-02-26 06:20:15.382123> NDM-0: Reset Event(s) : Software Reset
+<2019-02-26 06:20:15.382393> NDM-0: [0:00:00.069] [APPL] Serial #: 23AA01AC0318011Q
+<2019-02-26 06:20:15.382686> NDM-0: [0:00:00.077] [APPL] Battery voltage 3186, USB powered, proceeding with boot
+<2019-02-26 06:20:15.606063> NDM-0: [0:00:00.279] [APPL] Filled BCs
+<2019-02-26 06:20:15.606290> NDM-0: Last reset reason: sw requested
+<2019-02-26 06:20:15.606506> NDM-0: No previous fault info
+<2019-02-26 06:20:15.606707> NDM-0: [0:00:00.295] [OSM ] Osm continue
+<2019-02-26 06:20:15.606923> NDM-0: [0:00:00.302] [OSM ] osm_storage_get_string IsInstallPending retval -2
+<2019-02-26 06:20:15.627992> NDM-0: [0:00:00.321] [APPL] UART Connected
+<2019-02-26 06:20:15.628184> NDM-0: [0:00:00.325] [WVPL] Initializing weave platform
+<2019-02-26 06:20:16.309302> NDM-0: [0:00:00.969] [WVPL] StartWeave Setting LocalNodeId: 18b4300001002e6c
+<2019-02-26 06:20:16.309502> NDM-0: [0:00:00.981] [WVPL] Init: configuration Settings = 00000009
+<2019-02-26 06:20:16.309654> NDM-0: [0:00:00.986] [NUTL] Init NM Daemon
+<2019-02-26 06:20:16.309821> NDM-0: [0:00:00.989] [NLER] created queue 0x20003218 at 0x20011fac
+<2019-02-26 06:20:16.309976> NDM-0: [0:00:00.995] [NETW] Watchdog ID = 2.
+<2019-02-26 06:20:16.310242> NDM-0: [0:00:00.998] [NETW] nlWirelessCalPlatformLoadFromSysEnv: Loading From Environment for 'nlwirelessregcal.6LoWPAN'
+<2019-02-26 06:20:16.310539> NDM-0: [0:00:01.012] [APPL] nlproduct_FEM_init_txpower_settings:No TxPower Lookup table in sysenv
+<2019-02-26 06:20:16.332020> NDM-0: [0:00:01.020] [NLER] setting application tag for task 0x20003708 ('NMGR') to 0x2000c978
+<2019-02-26 06:20:16.332402> NDM-0: [0:00:01.027] [NUTL] Init NM Client
+<2019-02-26 06:20:16.332805> NDM-0: [0:00:01.031] [NLER] created queue 0x200032c8 at 0x20011ae0
+<2019-02-26 06:20:16.376017> NDM-0: [0:00:01.046] [NETW] [6LOWPAN] NM starts Thci driver
+<2019-02-26 06:20:16.376386> NDM-0: [0:00:01.051] [NETW] [TECHBASE] "6LoWPAN" (0x66f6ae45) persistently enabled.
+<2019-02-26 06:20:16.376683> NDM-0: [0:00:01.057] [NETW] [6LOWPAN] Driver enabled
+<2019-02-26 06:20:16.377206> NDM-0: [0:00:01.062] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:20:16.377636> NDM-0: [0:00:01.070] [OTHR] [INFO]-MLE-----: PeriodicParentSearch: (Re)starting timer for check interval
+<2019-02-26 06:20:16.430689> NDM-0: [0:00:01.096] [NLER] created queue 0x200033d0 at 0x2001239c
+<2019-02-26 06:20:16.431041> NDM-0: [0:00:01.101] [THCI] Initialized OPENTHREAD/g664df0101; NONE; Aug 29 2018 09:12:43
+<2019-02-26 06:20:16.431441> NDM-0: [0:00:01.108] [NETW] [6LOWPAN] OT version: OPENTHREAD/g664df0101; NONE; Aug 29 2018 09:12:43
+<2019-02-26 06:20:16.431863> NDM-0: [0:00:01.116] [NETW] [6LOWPAN] Sets netif link up
+<2019-02-26 06:20:16.432350> NDM-0: [0:00:01.125] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0xe1211) [Ip6+ MLAddr NetData Ip6Mult+ PanId NetName ExtPanId] 
+<2019-02-26 06:20:16.432974> NDM-0: [0:00:01.136] [NETW] [6LOWPAN] IPv6 unicast-addresses updated:
+<2019-02-26 06:20:16.475913> NDM-0: [0:00:01.141] [NETW] [6LOWPAN]     FDDE:AD00:BEEF:0:E72C:D788:177A:DD42
+<2019-02-26 06:20:16.476381> NDM-0: [0:00:01.148] [NETW] [6LOWPAN]     FE80::F43E:B4B4:73BE:B439
+<2019-02-26 06:20:16.476775> NDM-0: [0:00:01.153] [NETW] [6LOWPAN] IPv6 multicast-addresses updated:
+<2019-02-26 06:20:16.477129> NDM-0: [0:00:01.159] [NETW] [6LOWPAN]     FF33:40:FDDE:AD00:BEEF::1
+<2019-02-26 06:20:16.477437> NDM-0: [0:00:01.164] [NETW] [6LOWPAN]     FF32:40:FDDE:AD00:BEEF::1
+<2019-02-26 06:20:16.477785> NDM-0: [0:00:01.170] [NETW] [6LOWPAN]     FF02::1
+<2019-02-26 06:20:16.478066> NDM-0: [0:00:01.173] [NETW] [6LOWPAN]     FF03::1
+<2019-02-26 06:20:16.478379> NDM-0: [0:00:01.177] [NETW] [6LOWPAN]     FF03::FC
+<2019-02-26 06:20:16.499891> NDM-0: [0:00:01.181] [NETW] [6LOWPAN] NetworkData Len: 0 NetworkData:
+<2019-02-26 06:20:16.500210> NDM-0: [0:00:01.187] [NETW] [6LOWPAN] ML Addr changed
+<2019-02-26 06:20:16.500524> NDM-0: [0:00:01.191] [TELE] Initing Network Telemetry & Topology
+<2019-02-26 06:20:16.543287> NDM-0: [0:00:01.248] [WVPL] SoftwareVersion: '1.0a41'
+<2019-02-26 06:20:16.554437> NDM-0: [0:00:01.256] [WVPL] No FabricId.reporting 0
+<2019-02-26 06:20:16.639092> NDM-0: [0:00:01.300] [CTRL] Waiting for events!
+<2019-02-26 06:20:16.639309> NDM-0: [0:00:01.303] [DETS] Updating Detectors with new settings
+<2019-02-26 06:20:16.639485> NDM-0: [0:00:01.312] [PAIR] Init pair fail: -1355284483
+<2019-02-26 06:20:16.639639> NDM-0: [0:00:01.316] [ACTN] requesting focus for 'boot'
+<2019-02-26 06:20:16.639781> NDM-0: [0:00:01.329] [APPL] reset relay for 50 mSecs
+<2019-02-26 06:20:16.639920> NDM-0: [0:00:01.336] [ACTN] >> STARTING 'boot'
+<2019-02-26 06:20:16.671226> NDM-0: [0:00:01.356] [LEDM] Starting animation! Type: 8 Colors: (0, 7) PokeVal: 17
+<2019-02-26 06:20:16.682949> NDM-M: Note: found pattern 'Waiting for events!' at index 0
+<2019-02-26 06:20:16.683063> NDM-M: Note: mode any expect completed with u'' remaining patterns in 3.61246800423s
+<2019-02-26 06:20:16.684886> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:16.685189> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:20:16.713152> NDM-0: [0:00:01.374] [APPL] Starting profile timer
+<2019-02-26 06:20:16.713476> NDM-0: [0:00:01.377] [APPL] Waiting for events!
+<2019-02-26 06:20:16.713730> NDM-0: [0:00:01.385] [SWU ] SWU Timer Interval = 8646s
+<2019-02-26 06:20:16.713997> NDM-0: [0:00:01.389] [LEDM] Poking animation with 0x60
+<2019-02-26 06:20:16.714302> NDM-0: [0:00:01.394] [APPL] Casting vote for data poll 2 by voter 0
+<2019-02-26 06:20:16.714812> NDM-0: [0:00:01.399] [APPL] Setting datapoll config 2
+<2019-02-26 06:20:16.715154> NDM-0: [0:00:01.404] [NETW] [6LOWPAN] Technology Changes 12688
+<2019-02-26 06:20:16.715544> NDM-0: [0:00:01.408] [NETW] [TECHCTLR] Store: "6LoWPAN" not dirty; not stored
+<2019-02-26 06:20:16.715856> NDM-0: [0:00:01.415] [APPL] Profile timer expired
+<2019-02-26 06:20:16.759320> NDM-0: [0:00:01.418] [APPL] Total uptime 1418, interval duration 1418
+<2019-02-26 06:20:16.759530> NDM-0: [0:00:01.425] [APPL] task 'app': usage during interval 1158, max unused stack bytes 2152
+<2019-02-26 06:20:16.759728> NDM-0: [0:00:01.433] [APPL] task 'IDL': usage during interval 51, max unused stack bytes 328
+<2019-02-26 06:20:16.759899> NDM-0: [0:00:01.440] [APPL] task 'tcp': usage during interval 0, max unused stack bytes 860
+<2019-02-26 06:20:16.760080> NDM-0: [0:00:01.447] [APPL] task 'ctr': usage during interval 21, max unused stack bytes 1448
+<2019-02-26 06:20:16.760296> NDM-0: [0:00:01.455] [APPL] task 'NMG': usage during interval 173, max unused stack bytes 2264
+<2019-02-26 06:20:16.802863> NDM-0: [0:00:01.463] [APPL] task 'USB': usage during interval 12, max unused stack bytes 768
+<2019-02-26 06:20:16.803322> NDM-0: [0:00:01.470] [APPL] Found queue at 0x20010e0c, size 18 watermark 1
+<2019-02-26 06:20:16.803871> NDM-0: [0:00:01.476] [APPL] Found queue at 0x20012d04, size 38 watermark 2
+<2019-02-26 06:20:16.804317> NDM-0: [0:00:01.482] [APPL] Found queue at 0x200121ec, size 6 watermark 0
+<2019-02-26 06:20:16.804749> NDM-0: [0:00:01.488] [APPL] Found queue at 0x20011fac, size 26 watermark 1
+<2019-02-26 06:20:16.805079> NDM-0: [0:00:01.494] [APPL] Profile Item LED: 62
+<2019-02-26 06:20:16.805450> NDM-0: [0:00:01.498] [APPL] Profile Item I2C: 12
+<2019-02-26 06:20:16.805907> NDM-0: [0:00:01.501] [APPL] Profile Item ADC: 0
+<2019-02-26 06:20:16.806290> NDM-0: [0:00:01.505] [APPL] Profile Item SPI: 971
+<2019-02-26 06:20:16.848670> NDM-0: [0:00:01.509] [APPL] Profile Item CONSOLE: 1418
+<2019-02-26 06:20:16.848872> NDM-0: [0:00:01.513] [APPL] Profile Item SLEEP_IDLE: 0
+<2019-02-26 06:20:16.849075> NDM-0: [0:00:01.517] [APPL] Profile Item SLEEP_DEEP: 47
+<2019-02-26 06:20:16.849274> NDM-0: [0:00:01.522] [APPL] Profile Item SLEEP_BLOCKED: 0
+<2019-02-26 06:20:16.849490> NDM-0: [0:00:01.526] [APPL] Profile Item RADIO_EN: 0
+<2019-02-26 06:20:16.849718> NDM-0: [0:00:01.530] [APPL] Profile Item 5V0_BOOST_EN: 85
+<2019-02-26 06:20:16.849994> NDM-0: [0:00:01.535] [APPL] Profile Item SENSOR_EN: 0
+<2019-02-26 06:20:16.850228> NDM-0: [0:00:01.539] [APPL] Profile Item READ_ADC_POWER: 3
+<2019-02-26 06:20:16.850481> NDM-0: [0:00:01.543] [APPL] Profile Item READ_NTC_POWER: 0
+<2019-02-26 06:20:16.850723> NDM-0: [0:00:01.548] [APPL] Profile Item FEM: 0
+<2019-02-26 06:20:16.871905> NDM-0: [0:00:01.551] [APPL] Profile Item PP1V8_OT_EN: 0
+<2019-02-26 06:20:16.872145> NDM-0: [0:00:01.556] [APPL] Profile Item RELAY_SET: 0
+<2019-02-26 06:20:16.872369> NDM-0: [0:00:01.560] [APPL] Profile Item RELAY_RESET: 51
+<2019-02-26 06:20:16.872532> NDM-0: ACK
+<2019-02-26 06:20:16.883020> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:16.883287> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.197572946548s
+<2019-02-26 06:20:16.883650> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:20:16.883908> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:20:16.947926> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:20:16.948350> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:20:16.948712> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.0641329288483s
+<2019-02-26 06:20:16.949182> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:16.949587> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:20:17.013393> NDM-0: ACK
+<2019-02-26 06:20:17.014326> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:17.014556> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0640249252319s
+<2019-02-26 06:20:17.028860> NDM-M: Note: expecting any patterns from [u'Interface Up'] using all lines and 2000 search window in 30s
+<2019-02-26 06:20:17.757470> NDM-0: [0:00:02.390] [LEDM] <AnimationInterrupt>
+<2019-02-26 06:20:17.757837> NDM-0: [0:00:02.395] [LEDM] Stopping animation!
+<2019-02-26 06:20:17.758185> NDM-0: [0:00:02.403] [LEDM] Starting animation! Type: 2 Colors: (0, 7) PokeVal: 1
+<2019-02-26 06:20:17.758647> NDM-0: [0:00:02.415] [APPL] nlBootAction::StartStatusAnimation 0
+<2019-02-26 06:20:17.759071> NDM-0: [0:00:02.422] [LEDM] SetLEDColorAndPWM(group=1, color=1, pwm=0)
+<2019-02-26 06:20:17.759466> NDM-0: [0:00:02.431] [APPL] Starting Hunting
+<2019-02-26 06:20:17.759788> NDM-0: [0:00:02.435] [APPL] Casting vote for data poll 0 by voter 3
+<2019-02-26 06:20:17.760114> NDM-0: [0:00:02.443] [APPL] Setting datapoll config 0
+<2019-02-26 06:20:17.760543> NDM-0: [0:00:02.449] [NETW] [6LOWPAN] Technology Changes 12688
+<2019-02-26 06:20:17.813831> NDM-0: [0:00:02.455] [NETW] [TECHCTLR] Store: "6LoWPAN" not dirty; not stored
+<2019-02-26 06:20:17.814004> NDM-0: [0:00:02.464] [PAIR] Starting pairing
+<2019-02-26 06:20:17.814214> NDM-0: [0:00:02.468] [HUNT] 1 (activated) : 0 (idle) -> 1 (scanning)
+<2019-02-26 06:20:17.814408> NDM-0: [0:00:02.476] [NETW] [TECHCTLR] Externally-initiated scan of "6LoWPAN" (0x66f6ae45)
+<2019-02-26 06:20:17.814564> NDM-0: [0:00:02.487] [THCI] Interface Up
+<2019-02-26 06:20:17.814751> NDM-0: [0:00:02.491] [OTHR] [INFO]-MLE-----: Send Discovery Request (ff02:0:0:0:0:0:0:2)
+<2019-02-26 06:20:17.815043> NDM-0: [0:00:02.501] [OTHR] [INFO]-CORE----: Notifier: StateChanged (0x20000) [PanId] 
+<2019-02-26 06:20:17.825702> NDM-0: [0:00:02.511] [APPL] Drop pair evt 0:1, state 6
+<2019-02-26 06:20:17.826008> NDM-0: [0:00:02.516] [NUTL] Thd set joinable NOT FOUND
+<2019-02-26 06:20:17.829021> NDM-M: Note: found pattern u'Interface Up' at index 0
+<2019-02-26 06:20:17.829262> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.799471855164s
+<2019-02-26 06:20:17.844982> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:17.845611> NDM-M: Note: wrote command '\nshle\n' to port 0
+<2019-02-26 06:20:17.911591> NDM-0: ACK
+<2019-02-26 06:20:17.960134> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:17.960423> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.114089012146s
+<2019-02-26 06:20:17.960897> NDM-M: Note: expecting any patterns from ['ACK(?:: (\\S+))?', 'Bootloader', '(Error: No such command:.*)'] using response lines and 2000 search window in 4.0s
+<2019-02-26 06:20:17.961255> NDM-M: Note: wrote command '\ngfwv\n' to port 0
+<2019-02-26 06:20:18.019028> NDM-0: ACK: 1.0a41,<none>
+<2019-02-26 06:20:18.026044> NDM-M: Note: found pattern 'ACK(?:: (\\S+))?' at index 0
+<2019-02-26 06:20:18.026232> NDM-M: Note: mode any expect completed with u'Bootloader, (Error: No such command:.*)' remaining patterns in 0.0640699863434s
+<2019-02-26 06:20:18.026483> NDM-M: Note: expecting any patterns from ['ACK'] using response lines and 2000 search window in 5s
+<2019-02-26 06:20:18.026702> NDM-M: Note: wrote command '\nshld\n' to port 0
+<2019-02-26 06:20:18.084107> NDM-0: ACK
+<2019-02-26 06:20:18.091300> NDM-M: Note: found pattern 'ACK' at index 0
+<2019-02-26 06:20:18.091497> NDM-M: Note: mode any expect completed with u'' remaining patterns in 0.0639851093292s
+<2019-02-26 06:20:18.434797> NDM-0: [0:00:03.113] [APPL] WARN:No Tx Power lookup table found in sysenv, falling back to legacy decoding
+<2019-02-26 06:20:19.093099> NDM-0: [0:00:03.763] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:20:19.603743> NDM-0: [0:00:04.271] [OTHR] [INFO]-MAC-----: Received Beacon Request
+<2019-02-26 06:20:21.714179> NDM-0: [0:00:06.374] [APPL] Temp 2500
+<2019-02-26 06:20:21.735760> NDM-0: [0:00:06.388] [APPL] NTCs 2628 2583 2600
